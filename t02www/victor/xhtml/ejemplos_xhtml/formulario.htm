@@ -1,0 +1,54 @@
+﻿<! DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3c.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns ="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>un formulario... solo por preguntar algo</title>
+</head>
+<body>
+<form action="formulario.htm" method="get" enctype="text/plain">
+	<p>
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" size="20" />
+	</p>
+	<p>
+		<label for="pass">contrase&ntilde;a:</label>
+		<input type="password" id="pass" name="pass" size="20" />
+	</p>
+	<p>
+		<label for="comentario">¿Alg&uacute;n comentario?</label>
+		<br />
+		<textarea name="comentario" id="comentario" cols="30" rows ="5">Bla bla bla</textarea>
+	</p>
+	<p>Has jugado a...<br />
+		<input type="checkbox" name="monkey1" id="monkey1" value="si" checked="checked" />
+		<label for="monkey1">Monkey Island I</label>
+		<br />
+		<input type="checkbox" name="xwing" id="xwing" value="si" />
+		<label for="xwing">X-Wing Alliance</label>
+	</p>
+	<p>Peli preferida:</br >
+		<input type="radio" name="peli" id="sw_hope" value ="hope" checked ="checked" />
+		<label for="sw_hope">A New Hope </label>
+		<br />
+		<input type="radio" name="peli" id="sw_empire" value="empire" />
+		<label for="sw_empire">The Empire Strikes Back</label>
+		<br />
+		<input type="radio" name="peli" id="sw_jedi" value="jedi" />
+		<label for="sw_jedi">The Return of the Jedi</label>
+	</p>
+	<p>
+		<label for="peli2">Pel&iacute;cula preferida:</label>
+		<br />
+		<select name="peli2" id="peli2">
+		<option value="hope">A New Hope</option>
+		<option value="empire">The Empire Strikes Back</option>
+		<option value="jedi" selected="selected"> The Return of the Jedi</option>
+		</select>
+	</p>
+	<p>
+		<input type="submit" value="Enviar" />
+		<input type="reset" value="Borrar" />
+	</p>
+</form>
+</body>
+</html>
