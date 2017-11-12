@@ -92,6 +92,7 @@ La velocidad a la que cubramos la base teórica y los ejercicios básicos es una
 
 ### Contenidos no programados en este documento
 Los contenidos no cubiertos del Bloque 2 de la asignatura (según Curriculum Oficial en el BOA de 3 de junio de 2016) quedarán a cargo del profesor titular (Víctor).
+
 | Estándar de Aprendizaje | ¿Cubierto? |
 | ----------------------- |:-----------:|
 | TIC.2.1.1. Explica las características relevantes de las web 2.0 y los principios en los que esta se basa | Sí |
@@ -106,10 +107,10 @@ Se encuentra descrito en ./101-introduccion.md
 Adicionalmente se podría detallar en relación con el marco digcomp 2.0 europeo:
 @@@
 Según [DigComp 2.0](https://ec.europa.eu/jrc/en/digcomp/digital-competence-framework)
-      * 1) Information and data literacy: Cómo se almacenan los contenidos digitales
-      * 2) Communication and collaboration
-      * 3) Digital content creation
-      * 4) Safety
-      * 5) Problem solving
+* 1) Information and data literacy: Cómo se almacenan los contenidos digitales
+* 2) Communication and collaboration
+* 3) Digital content creation
+* 4) Safety
+* 5) Problem solving
 
 * [MECD, Competencias Clave](https://www.mecd.gob.es/educacion/mc/lomce/el-curriculo/curriculo-primaria-eso-bachillerato/competencias-clave/competencias-clave.html)
