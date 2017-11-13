@@ -1,10 +1,9 @@
 103-tecnologias.md
 Apartado de descripción de las tecnologías y conceptos involucradas en el WWW
 
-- [ ] Pasar a limpio anotaciones en el comentario
+- [ ] Pasar a limpio anotaciones
 
 
-<!--
 Hipertexto - Project_Xanadu
 
   * Definición y ejemplo HTML (HolaMundo.html)
@@ -24,4 +23,3 @@ Hipertexto - Project_Xanadu
 	2. Protocolo HTTP. Ejemplo de petición GET. Códigos de respuesta. Cookies. Peticiones POST
 	3. Lenguaje HTML. Lenguajes de marcado (SGML,XML). Partes estructurales (declaración,prólogo,cabecera,cuerpo)
 	4. Generación dinámica de recursos. De ejecutar un comando por petición (CGI), a los servidores de páginas (PHP,Java,ASP), a los sistemas distribuidos.
--->

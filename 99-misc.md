@@ -124,6 +124,14 @@ Aparentemente debería instalarme algún elemento adicional (Smart-HTTP). Parece
 
 Llegado a este punto abandono el asunto. Subiré un zip a Google Drive, o quizás cree un repositorio en github (para lo cual posiblemente tenga que enredar con credenciales)
 
+----
+
+probando GitHub
+https://github.com/fjarandag/tic2.git
+git@github.com:fjarandag/tic2.git
+Conseguido, aunque he necesitado hacer un "rebase" porque el master de github no era el mismo que el de mi local.
+Puede que haya discrepancia en las licencias (CC-SA-BY vs GPL3 en github). A efectos prácticos no debería haber diferencias.
+
 
 ### Pendiente de incorporar
 
