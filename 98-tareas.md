@@ -21,9 +21,20 @@ TIC2 Tareas
 * [x] {name:bloque2PD} Dar cuerpo a la programación didáctica Bloque 2 (WWW)
 * Incorporando y refinando anotaciones
 
+### 1112
+* Me paso al editor Atom, que tiene soporte de Git, y mejor soporte para Markdown.
+* backup rsync manual
+* [x] {name:bloque2SesionesGuion0} Iniciar el desarrollo sesiones bloque2.
+   * Creados los ficheros de anotaciones de cada apartado y repartidas las anotaciones preexistentes en el notes.md antiguo
+* Intentando poner mi repositorio Git en mi servidor web, pero es infructuoso. Anotando en misc.
+
+### 1113
+Conflicto: Debería estar ultimando la unidad, pero por mi arte solo he mirado recursos y tengo una maraña de anotaciones.
+Debería hablar con Víctor a 6ª hora, pero me ha caído llevar y recoger a Ximena de la guardería.
+Es urgente poner en pie una primera versión de las transparencias de los 2-3 primeros apartados.
+
 # Planteadas
 ## Prioritarias
-* [ ] {name:bloque2SesionesGuion0} Iniciar el desarrollo sesiones bloque2
 * [ ] Localizar o preparar una plantilla minimalista para presentaciones.
 
 ## Importantes

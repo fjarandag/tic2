@@ -87,7 +87,47 @@ Idealmente aprobar no debería ser superar un listón arbitrario. Debe ser sufic
 No obstante no sé si con HTML5 se permite embeber MathML, y qué soporte hay por parte de los navegadores
   - [ ] Curar
 
+### Repositorio Git
+Consideraba conveniente poner los contenidos desarrollados en un repositorio Git
+- Para que Víctor pueda tener una versión actualizada, en vez de enviar ficheros sueltos o un zip de todo.
+- El desarrollo incremental en distintos momentos, modificando ficheros existentes, muestra que el trabajo no es una copia o un material elaborado precipitadamente en el último momento.
+- El repositorio puede ser útil para continuar trabajando en él en los materiales de esta asignatura (o de otras) si metocara impartirlas posteriormente.
+- Demuestra el uso eficaz de nuevas tecnologías.
+- {!Pega} No todo el mundo tiene instalado ni tiene soltura con control de versiones (yo mismo). Puede que en algunos casos suponga un obstáculo y los inconvenientes no se compensen.
+
+#### 1113
+Anotaciones sobre búsquedas de ayer
+Buscando `Copying git into http server`
+* [GitHub gist - Using Git to Manage a Live Web Site](https://gist.github.com/Nilpo/8ed5e44be00d6cf21f22)
+En realidad no es poner un repositorio remoto para que otros puedan clonar.
+Aparentemente lo que pretende es que al realizar un push el sitio web se actualice.
+Contiene algunas instrucciones de credenciales (copiar fichero RSA público que utiliza SSH) que no me han sido necesarias.
+* [StackOverflow - How to copy a local repository to remote server using git?](https://stackoverflow.com/questions/15463795/how-to-copy-a-local-repository-to-remote-server-using-git)
+Más en la misma línea del anterior (GitHub gist). Algo más condensado. Y es lo que más útil me ha resultado.
+* [Soporte Hostgator - How Do I Get and Use SSH Access?](http://support.hostgator.com/articles/hosting-guide/lets-get-started/how-do-i-get-and-use-ssh-access)
+El SSH se encuentra habilitado (no como hace algún tiempo).
+No consigo acceder utilizando PuTTY. No sé qué estaré haciendo mal.
+En cambio sí que consigo acceder utilizando el terminal de Cygwin: `ssh -p 2222 javier@javier-aranda.com`
+La primera vez aparece una confirmación de si confío en el certificado del sitio.
+* [Medium,29degrees-Setup a private Git repository on a shared HostGator account](https://medium.com/29-degrees/setup-a-git-repository-on-a-shared-hostgator-account-7a7e306ef66f)
+Abunda en lo mismo.
+
+Tras seguir los pasos indicados he conseguido conectarme y crear un repositorio *bare* en `~/public_http/tic2.git/`, y he realizado un `push` desde mi local.
+Sin embargo al intentar realizar un `clone` del nuevo repositorio, estoy obteniendo el error `fatal: repository 'http://javier-aranda.com/tic2.git/' not found`.
+He probado a utilizar el protocolo git (no habilitado), y he probado a crear un clon por línea de comandos dentro del servidor (tenía un aspecto correcto, con los ficheros esperados dentro del directorio de trabajo). Y he probado a acceder al clon.
+
+Buscando `git http fatal repository not found`
+* [StackOverflow - `git clone` over HTTP Fails with “repository not found”](https://stackoverflow.com/questions/30313480/git-clone-over-http-fails-with-repository-not-found).
+Aparentemente debería instalarme algún elemento adicional (Smart-HTTP). Parece algún tipo de módulo CGI para apache que no estoy seguro de que se me vaya a permitir. Supongo que en vez de tratar acceder a los ficheros individuales está encapsulando algún tipo de protocolo (Git) dentro de HTTP. Sería bueno (aunque fuera terriblemente ineficiente) que se pudiera acceder como si fuera un *filesystem*
+  * [Git-SCM *Git on the Server - Smart HTTP*](https://git-scm.com/book/en/v2/Git-on-the-Server-Smart-HTTP)
+  * También [git-http-backend](https://git-scm.com/docs/git-http-backend)
+
+Llegado a este punto abandono el asunto. Subiré un zip a Google Drive, o quizás cree un repositorio en github (para lo cual posiblemente tenga que enredar con credenciales)
+
+
 ### Pendiente de incorporar
+
+(Dentro de comentario HTML)
 
 <!--
 
