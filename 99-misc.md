@@ -59,10 +59,42 @@ Considero quedarme con GFM (GitHub), que es renderizado por el paquete  Markdown
 
 ### Contenidos descartados
 Hay conceptos que me parecen interesantes, pero que posiblemente exceden mi alcance.
-* Buscadores. Registrar páginas, Bots, Crawlers, robots.txt, nofollow. SEO
+
+#### Buscadores
+* Qué resultados son más relevantes en un buscador. Páginas bien construidas. Referencias entrantes. Contenidos destacados en una página.
+* Funcionamiento de los bots/crawlers. Ejemplo y razón de uso de robots.txt y nofollow para evitar indexación (zonas que no producirían contenidos que queramos que se indexen, impliquen un riesgo. En los comentarios de blogs y foros evitar el abuso de spammers).
+* Técnicas SEO buenas: Que las páginas estén bien construidas (estándares, información semántica-microformatos), intercambio de referencias natural entre socios/colegas, URLs significativas, análisis del tráfico entrante, concordancia de las palabras clave utilizadas con los términos por los que la gente busca. Posiblemente *comprar palabras* en el buscador.
+* Técnicas SEO abusivas: "granjas" de enlaces. Peticiones de intercambios de enlaces con sitios no relacionados. Los buscadores (Google y otros) tratan de detectar dichas prácticas y penalizarlas. Así consiguen que sus resultados sean de calidad, y que a quien quiera promoción le resulte más rentable comprar publicidad en el propio buscador.
+* Posible actividad: Incorporar microformatos a la página de ejemplo desarrollada, por ejemplo una vCard con la información personal.
+
+#### Generadores de documentación
+Se podría ver una demostración de cómo por ejemplo Javadoc o maven generan HTML para código de programa, proyectos.
+
+#### Actividades
 * Ejemplo sencillo de cómo montar un servidor sencillo, configurar cuentas ftp.
-* Herramientas de colaboración y publicación. Wikis, repositorios. Uso de Blogs, foros, Sitios de preguntas (Quora,StackExchange),redes sociales. Poner en pie una Wiki e incluir los materiales de este bloque/asignatura. Podría dar lugar incluso a una actividad a lo largo del curso e incluso interdisciplinar (que presenten el trabajo de otras asignaturas a través de una wiki).
+* Herramientas de colaboración y publicación. Wikis, repositorios. Uso de Blogs, foros, Sitios de preguntas (Quora,StackExchange),redes sociales.
+Se podría pedirles que realicen algún tipo de actividad en un entorno colaborativo controlado (por ejemplo en Wikispaces).
+Se podría realizar la puesta en pie de un servidor (por ejemplo un MediaWiki) en una máquina sobre la que tengamos control. Y discutir sobre algunos aspectos clave de la configuración. Y que experimenten sobre la potencia de las plantillas (`Templates`, que permiten por ejemplo un formato condicional, una *transclusión* personalizada).
+
 * Otros lenguajes de marcado habituales: Markdown, (Media)Wiki. Se puede pedirles que conviertan un documento en otro formato (por ejemplo un apartado del libro del XHTML+CSS a Markdown)
+
+#### Controversia del layout
+Sobre el tema del layout con tablas y con capas div.
+Mi postura no sería prohibir taxativamente que se utilicen tablas para ese propósito.
+Está claro que en el pasado se ha abusado y había tablas dentro de tablas dentro de tablas, y que para los casos más habituales el uso de capas es más elegante y flexible. Por ejemplo para la barra de navegación, o para que el texto *fluya* a uno u otro lado de una imagen.
+Sin embargo el uso de las directivas `float` y `clear` no es completamente claro e intuitivo, y no está excento de interferencias. Y hay diseños especiales en los que un diseño fluído con capas podría dar lugar a layouts anómalos (por ejemplo en formularios).
+Tengo una experiencia reciente con el [formulario del Internal Rate of Return](http://javier-aranda.com/calc/irr.html), donde me empeñé en hacer el diseño con capas (a pesar de que me resultaba más difícil). Y el formulario que se veía bien por separado, al conjuntarlo con la barra de navegación del diseño fluído de maven/doxia, acababa descuadrado y no fui capaz de solucionarlo de forma normal. Al final tuve que utilizar un `iframe`, al que había que asignarle un tamaño rígido, pero no rompía mi diseño.
+
+También podría darse el caso de layouts atípicos al estilo de una cruz gamada (*lauburu*, *esvástica*):
+
+<table><tr><td rowspan="2">NW</td><td colspan="2">NE</td></tr>
+<tr><td>C</td><td rowspan="2">SE</td></tr>
+<tr><td colspan="2">SW</td></tr></table>
+
+Por otro lado hay casos en los que es claramente ventajoso utilizar un layout con capas: Por ejemplo para una barra de navegación que queremos ocultar al imprimir. Una capa es más fácil de ocultar (`display:none`), que una columna completa.
+
+Sin ser un experto o autoridad en el tema, estos son mis dos céntimos. Esto es inadecuado para enseñarles a los alumnos porque es complejo. O quizás pueda tener un valor en el sentido de que hay cosas que son controvertidas, que hay posiciones más puristas y más laxas. Y que cada parte tiende a ver solo los inconvenientes de la opción contraria e ignorar los puntos fuertes. Y para lo que nos va en juego, a veces la postura más razonable puede ser asentir y pasar por el aro. Particularmente si no tenemos una posición de autoridad o si la otra parte se lo toma como algo personal (se utiliza el término de *guerra de religión*). Quizás lo peor de utilizar layouts con tablas es la reacción de los otros.
+
 
 ### 1111
 Quizás estar haciendo una programación y refinando detalles instrumentales, acaba siendo perderse en preliminares y estar a vísperas sin tener ningún *producto* preparado.
@@ -124,52 +156,30 @@ Aparentemente debería instalarme algún elemento adicional (Smart-HTTP). Parece
 
 Llegado a este punto abandono el asunto. Subiré un zip a Google Drive, o quizás cree un repositorio en github (para lo cual posiblemente tenga que enredar con credenciales)
 
+----
+
+
+probando GitHub
+https://github.com/fjarandag/tic2.git
+git@github.com:fjarandag/tic2.git
+Conseguido, aunque he necesitado hacer un "rebase" porque el master de github no era el mismo que el de mi local.
+Puede que haya discrepancia en las licencias (CC-SA-BY vs GPL3 en github). A efectos prácticos no debería ser significativo.
+
+
+De la conversación con Víctor, el énfasis creo que está en los siguientes puntos:
+- Qué contenidos concretos les voy a enseñar a los alumnos
+- Qué ejercicios concretos les voy a plantear, y cuáles van a ser los criterios de evaluación
+- Plantear algún control escrito.
+
+Iremos viendo que huecos van quedando a lo largo de la semana. Indico mi impresión de que voy retrasado, que me he complicado con asuntos secundarios, que a estas alturas ya debería de tener los contenidos/presentaciones medianamente bien definidos, o de lo contrario nos plantaremos en vísperas con las sesiones sin estar debidamente preparadas.
+
+Sobre el tema de los ejercicios, considero que se haría elegir a los alumnos algún tema para desarrollar una página, y conforme se vayan viendo distintos elementos del HTML y del CSS, hacer que los vayan aplicando.
+
+Sobre la cuestión de si tendrán que entregar trabajos a través de la plataforma, considero que son cosas sencillas y que se podría ver en un minuto si cumple bien con las expectativas.
+Víctor me comenta que habrá que tener algo preparado para los alumnos que terminen pronto. Dentro de los alumnos cabe esperar que haya algunos que intenten cumplir mínimamente (lo cual puede ser racional), y otros que ni siquiera lo intenten (algo que en un principio no sucede con este grupo). Está la anécdota de un alumno que intentó presentar como solución un código de lenguaje Java (cuando se pedía Python), como si lo hubiera copiado de Internet y ni siquiera lo hubiera verificado en el entorno.
+
+Sobre la secuenciación, considero que habría que alterarla dispersando los 3 apartados iniciales (que son algo más áridos, sin aplicación práctica por parte de los alumnos).
 
 ### Pendiente de incorporar
 
-(Dentro de comentario HTML)
-
-<!--
-
-
-#Formato HTML parte # - Layout de páginas
-@@@
-El layout es problemático. Mi experiencia al respecto es frustrante. El consenso entre los diseñadores es desaconsejar el layout utilizando una tabla (por ejemplo si se quieren ocultar barras de navegación para imprimir, o por supuesta accesibilidad). Sin embargo con capas es menos intuitivo ajustar y mantener los distintos elementos de la página (cabeceras, pies, barras laterales) en su sitio.
-
-No siendo un experto, es un tema en el que no entraría.
-No obstante conviene enseñar cómo llamar cada elemento de la tabla. Cabecera, pie, menús de navegación, breadcrumb.
-Estos elementos normalmente deberían venir definidos en la hoja de estilos que vayamos a utilizar.
-
-#Formato HTML parte # - Microformatos, widgets, SEO
-@@@
-Es posible añadir a nuestra página meta-información que facilita a los navegadores y a los buscadores encontrar informaciones concretas. Por ejemplo opengraph facilita el darle a compartir a facebook. Podemos incluir información geográfica, etc de una tienda o restaurante. o la vCard en un curriculum vitae.
-
-Respecto al Search Engine Optimitation, conocer que los resultados dependen de las referencias que nos hagan (si queremos ser relevantes nos tienen que enlazar desde otros sitios. Y que hay gente que trata de "trucar" el sistema (y envían muchos correos promocionando tales servicios), pero el propio google (y otros buscadores) están interesados en detectar las "granjas de enlaces" y otros artificios, y al final lo realmente interesante es generar contenido de calidad, intercambiar enlaces con otros autores realmente relacionados, y en todo caso pagar publicidad a Google.
-
-Ejemplo propio. A pesar de tener el sitio javier-aranda.com y algún contenido de valor añadido (aunque nada relevante) en google aparecen antes que yo otros Javier Aranda. Podría hacer cosas para aumentar mi relevancia, pero no me parece que realmente merezca la pena el esfuerzo.
-
-#HTML dinámico #
-@@@
-Algún ejemplo con javascript.
-Por ejemplo podemos tener una página con un formulario, donde el javascript verifique los campos
-
-#Publicación en diversas plataformas.
-@@@
-Existen distintas plataformas en las que se puede publicar información.
-No obstante, en general las características de publicación son un subconjunto de las de HTML+CSS, y en el caso de que sean algo distintas (p.ej Templates en MediaWiki) probablemente son demasiado específicas.
-
-Sin embargo podría ser interesante que se familiarizasen con la sintáxis de Markdown (como por ejemplo para tomar notas de texto en un formato que sea formateable de una forma estándar).
-
-* publicación de HTML. Se les puede habilitar un servidor con cuentas FTP y rutas separadas para que prueben a subir su contenido.
-* Configuración y Publicación en un blog (blogger, wordpress)
-* Publicación en una wiki
-* Foros, redes sociales - Puede tener interés la idea de la configuración de seguridad (quién lo puede ver), cómo hacemos para
-* Generación de un sitio con maven, o algún cms(p.ej. Joomla)?
-* ...
-
-#Actividades
-
-* Crear un sitio el
-
-
-	-->
+- [ ] Dentro de las anotaciones genéricas del máster se introdujeron de esta unidad.

@@ -30,8 +30,10 @@ TIC2 Tareas
 
 ### 1113
 Conflicto: Debería estar ultimando la unidad, pero por mi arte solo he mirado recursos y tengo una maraña de anotaciones.
-Debería hablar con Víctor a 6ª hora, pero me ha caído llevar y recoger a Ximena de la guardería.
+Debería hablar con Víctor a 6ª hora **(Hecho)**, <s>pero me ha caído llevar y recoger a Ximena de la guardería.</s>
 Es urgente poner en pie una primera versión de las transparencias de los 2-3 primeros apartados.
+Incorporando anotaciones previas en 99-misc
+
 
 # Planteadas
 ## Prioritarias
