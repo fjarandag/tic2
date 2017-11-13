@@ -73,6 +73,7 @@ Se podría ver una demostración de cómo por ejemplo Javadoc o maven generan HT
 #### Actividades
 * Ejemplo sencillo de cómo montar un servidor sencillo, configurar cuentas ftp.
 * Herramientas de colaboración y publicación. Wikis, repositorios. Uso de Blogs, foros, Sitios de preguntas (Quora,StackExchange),redes sociales.
+
 Se podría pedirles que realicen algún tipo de actividad en un entorno colaborativo controlado (por ejemplo en Wikispaces).
 Se podría realizar la puesta en pie de un servidor (por ejemplo un MediaWiki) en una máquina sobre la que tengamos control. Y discutir sobre algunos aspectos clave de la configuración. Y que experimenten sobre la potencia de las plantillas (`Templates`, que permiten por ejemplo un formato condicional, una *transclusión* personalizada).
 
@@ -180,6 +181,7 @@ Víctor me comenta que habrá que tener algo preparado para los alumnos que term
 
 Sobre la secuenciación, considero que habría que alterarla dispersando los 3 apartados iniciales (que son algo más áridos, sin aplicación práctica por parte de los alumnos).
 
+### Pendiente de incorporar
 ### Pendiente de incorporar
 
 - [ ] Dentro de las anotaciones genéricas del máster se introdujeron de esta unidad.
