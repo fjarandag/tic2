@@ -196,6 +196,10 @@ Quizás  se podría considerar el HUD utilizado en aviación como una forma de r
 Preparando la presentación ayer. Por no salvar inicialmente, al confundirme al salir de la plantilla maestra pierdo algo de trabajo.
 La tira de dilbert del [Powerpoint poisoning](http://dilbert.com/strip/2000-08-16) tiene copyright y para pedir autorización hace falta rellenar un formulario.
 
+----
+
+[Peticiones síncronas y asíncronas](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests)
+Si es necesario mostrar que los términos tienen otro uso y que pudieran ser equívocos.
 
 ### Pendiente de incorporar
 
