@@ -181,7 +181,22 @@ Víctor me comenta que habrá que tener algo preparado para los alumnos que term
 
 Sobre la secuenciación, considero que habría que alterarla dispersando los 3 apartados iniciales (que son algo más áridos, sin aplicación práctica por parte de los alumnos).
 
-### Pendiente de incorporar
+----
+
+Realidad Aumentada
+- [Terminator Vision & Augmented Reality](https://www.youtube.com/watch?v=05n-UeTTkhQ)
+- [La escena del bar de Terminator 2](https://www.youtube.com/watch?v=TaRuugE1R74)
+Es un poco absurdo que una máquina necesite la información sobreimpresa. La escena es sexista y violenta.
+- [Singularity Hub -20170628- This Augmented Reality Helmet Helps Firefighters See Through Smoke to Save Lives](https://singularityhub.com/2017/06/28/this-augmented-reality-helmet-helps-firefighters-see-through-smoke-to-save-lives/amp/)
+- [CNN Money - Minority Report](https://www.youtube.com/watch?v=euJdKsOYnXk)
+
+Quizás  se podría considerar el HUD utilizado en aviación como una forma de realidad aumentada. Sin embargo habitualmente simplemente sería la sobreimagen de información relevante (altitud, velocidad, horizonte artificial, etc)
+
+### 1114
+Preparando la presentación ayer. Por no salvar inicialmente, al confundirme al salir de la plantilla maestra pierdo algo de trabajo.
+La tira de dilbert del [Powerpoint poisoning](http://dilbert.com/strip/2000-08-16) tiene copyright y para pedir autorización hace falta rellenar un formulario.
+
+
 ### Pendiente de incorporar
 
 - [ ] Dentro de las anotaciones genéricas del máster se introdujeron de esta unidad.

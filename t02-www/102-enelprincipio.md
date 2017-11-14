@@ -40,3 +40,6 @@ Relevancia en el ámbito académico de citar y referenciar.
   "If I have seen further, it is by standing on the shoulders of giants"
   Cita atribuida a Isaac Newton, pero probablemente anterior (https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants).
   Dar crédito a los predecesores, demostrar que el trabajo está bien fundamentado, facilitar a los investigadores consultar las fuentes y a través de éstas, otros trabajos relacionados.
+
+### Tecnología informática en 1991
+[ZDNet - 1991's PC technology was unbelievable](http://www.zdnet.com/article/1991s-pc-technology-was-unbelievable/)
