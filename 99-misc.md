@@ -201,6 +201,33 @@ La tira de dilbert del [Powerpoint poisoning](http://dilbert.com/strip/2000-08-1
 [Peticiones síncronas y asíncronas](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests)
 Si es necesario mostrar que los términos tienen otro uso y que pudieran ser equívocos.
 
+### 1115
+[Microsiervos - La paradójica complejidad del CSS](http://www.microsiervos.com/archivo/internet/complejidad-css-aumenta-disminuye.html)
+
+----
+
+Posible tarea estúpida en relación al HTTP. Acceder al sitio utilizando telnet
+    GET / HTTP/1.1
+    Host: www.lasallefranciscanas.com
+
+[How to make http/https requests yourself with nc/telnet/openssl](https://makandracards.com/makandra/45025-how-to-make-http-https-requests-yourself-with-nc-telnet-openssl)
+
+### 1116
+Observo que en [W3Schools](https://www.w3schools.com/html/html_tables.asp) hay ejercicios para prácticar.
+
+----
+[html3 maths](https://www.w3.org/MarkUp/html3/maths.html)
+
+[Chrome drops MathML support (2013)](https://www.cnet.com/news/google-subtracts-mathml-from-chrome-and-anger-multiplies/)
+
+Aparentemente la alternativa que propone Google es [Mathjax](https://www.mathjax.org/)
+Se puede ver un ejemplo con la fórmula de los polinómios de grado 2: https://www.mathjax.org/#gettingstarted
+
+[SVG dentro del HTML](https://www.w3schools.com/html/html5_svg.asp)
+Ejemplo significativo: Pentágono
+https://en.wikipedia.org/wiki/Pentagon
+By <a href="//commons.wikimedia.org/wiki/User:Petrus3743" title="User:Petrus3743">Petrus3743</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=36611972">Link</a>
+
 ### Pendiente de incorporar
 
 - [ ] Dentro de las anotaciones genéricas del máster se introdujeron de esta unidad.

@@ -1,0 +1,73 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <title>Colores seguros JS</title>
+</head>
+<body>
+<div class="main">
+<h2>Cat&aacute;logo de colores seguros</h2>
+<p>Los llamados colores seguros están motivados por limitaciones en los dispositivos y en la percepción.<br/>
+Dos colores demasiado cercanos (por ejemplo 
+    #ffffff<span style="border:1px solid black;background-color:#ffffff">&nbsp;</span>
+    y #ffffee <span style="border:1px solid black;background-color:#ffffee">&nbsp;</span> ),
+es posible que no se puedan diferenciar.<br/>
+Los colores seguros se definen en una matriz de 6&times;6&times;6 (6 intensidades distintas para cada componente RGB). De modo que hay suficiente diferencia entre dos colores vecinos.
+</p>
+<div id="coloresSeguros">Necesita Javascript para construir tabla</div>
+<script language="Javascript"><!--
+//from https://gist.github.com/jfsiii/5641126
+//from http://www.w3.org/TR/WCAG20/#relativeluminancedef
+function relativeLuminanceW3C(R8bit, G8bit, B8bit) {
+
+    var RsRGB = R8bit/255;
+    var GsRGB = G8bit/255;
+    var BsRGB = B8bit/255;
+
+    var R = (RsRGB <= 0.03928) ? RsRGB/12.92 : Math.pow((RsRGB+0.055)/1.055, 2.4);
+    var G = (GsRGB <= 0.03928) ? GsRGB/12.92 : Math.pow((GsRGB+0.055)/1.055, 2.4);
+    var B = (BsRGB <= 0.03928) ? BsRGB/12.92 : Math.pow((BsRGB+0.055)/1.055, 2.4);
+
+    // For the sRGB colorspace, the relative luminance of a color is defined as: 
+    var L = 0.2126 * R + 0.7152 * G + 0.0722 * B;
+
+    return L;
+}
+
+// Asumo que el elemento 'coloresSeguros' ya existe, y que el navegador lo regenerará al escribir su contenido.
+
+//function doGenerarTabla() {
+    var COMPONENT_LETTERS = ['0','3','6','9','C','F'];
+    var COMPONENT_INCREMENT = 51; // 255/5
+    // Construyendo la tabla por concatenación, evitando el string concatenation antipattern
+    // https://stackoverflow.com/questions/41009035/benefits-of-array-join-over-string-concatination-while-manipulating-jquery-ele
+    var elemsTabla = [];
+    
+    elemsTabla.push('<table style="font-size:80%;font-family:monospaced">\n');
+    for (var iR = 0; iR < 6; iR++) {
+    	elemsTabla.push('\t<tr>\n');
+    	for (var iG = 0; iG < 6; iG++) {
+    		for (var iB = 0; iB < 6; iB++) {
+    			var strColor = COMPONENT_LETTERS[iR] + COMPONENT_LETTERS[iG] + COMPONENT_LETTERS[iB];
+    			// Necesitamos la luminancia para determinar qué color de texto contrasta mejor
+    			var lum = relativeLuminanceW3C(iR * COMPONENT_INCREMENT, iG * COMPONENT_INCREMENT, iB * COMPONENT_INCREMENT);
+    			var textColor = lum > 0.5 ? '000' : 'fff'; // Si el fondo es claro el texto es negro.
+    			elemsTabla.push('\t\t<td style="background-color:#'+strColor+';color:#'+textColor+'">'+strColor+'</td>\n');
+    		}
+    	}
+    	elemsTabla.push('\t</tr>\n');
+    }
+    elemsTabla.push('</table>\n');
+    
+    var elemDivColores = document.getElementById('coloresSeguros');
+    elemDivColores.innerHTML = elemsTabla.join('');
+
+//}
+
+--></script>
+
+</div>
+</body>
+</html>
