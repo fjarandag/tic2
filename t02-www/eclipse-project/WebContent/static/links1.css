@@ -1,0 +1,34 @@
+/* Estilos sencillos.
+A fin de ejercitar a los alumnos se pueden ir suprimiendo elementos para volver a añadirlos.
+ */
+div.main {}
+div.links {
+	border: 1px solid black;
+	float: left;
+	margin: .2em; padding: .1em;
+	background-color: LightYellow;
+}
+div.links .caption {
+	display:block;
+	background-color: Maroon; color: White;
+	font-size: 110%; text-align: center;
+}
+
+div.links ul {
+	margin-top:0; /* Anula margen respecto al caption del grupo */
+	list-style-type: none; /* ¿Redefinir? */
+	padding-left:1em;
+}
+
+@media print{
+	/* Dado que los fondos se vuelven blancos, convierto todos los textos a negro para máximo contraste. */
+	* {
+	   color: black ! important;
+    }
+
+    /* Muestro el destino de los enlaces. */	
+	a:after{
+	   content:" (" attr(href) ") ";
+	   font-size:80%;font-weight:normal;font-style: italic;
+	}
+}

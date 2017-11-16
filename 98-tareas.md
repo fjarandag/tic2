@@ -34,10 +34,17 @@ Debería hablar con Víctor a 6ª hora **(Hecho)**, <s>pero me ha caído llevar 
 Es urgente poner en pie una primera versión de las transparencias de los 2-3 primeros apartados.
 Incorporando anotaciones previas en 99-misc
 
+- [*] <s>Localizar o preparar una plantilla minimalista para presentaciones.</s>
+Empiezo a trabajar en las presentaciones sin plantilla previa
+
+### 1114
+Trabajadas las dos primeras presentaciones (introducción y breve historia)
+
+### 1115
+Revisando la presentación de XHTML
 
 # Planteadas
 ## Prioritarias
-* [ ] Localizar o preparar una plantilla minimalista para presentaciones.
 
 ## Importantes
 * [ ] Comparar con modelos de programaciones didácticas (asignatura D.Curricular)
