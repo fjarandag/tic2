@@ -226,7 +226,87 @@ Se puede ver un ejemplo con la fórmula de los polinómios de grado 2: https://w
 [SVG dentro del HTML](https://www.w3schools.com/html/html5_svg.asp)
 Ejemplo significativo: Pentágono
 https://en.wikipedia.org/wiki/Pentagon
-By <a href="//commons.wikimedia.org/wiki/User:Petrus3743" title="User:Petrus3743">Petrus3743</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=36611972">Link</a>
+
+### 1119
+Rehaciendo la programación.
+Debería finalizar cuanto antes la memoria de la primera parte de las prácticas, etc.
+
+Competencias clave
+<!--
+@@@ Recuperado del fichero de programación anterior
+Observaciones:
+En herramientas síncronas y asíncronas tengo que informarme en concreto a qué se refiere. Mi primera impresión es que es una aplicación descontextualizada y estéril del concepto de E/S síncrona y asíncrona (en aquel caso tiene sentido, en éste no queda claro y acaso incluso induce a confusión).
+La Internet de las Cosas (IoT) no entiendo qué tiene que ver con la publicación de contenidos. La Realidad Aumentada (AR) es un poco puntera y experimental para pretender que sea un contenido mínimo. ¿Y por qué la AR y no por ejemplo los códigos QR? A mi entender los autores de la versión aragonesa del curriculum quizás se han extralimitado y han incluido en una especificación de los contenidos obligatorios, elementos que simplemente serían recomendables. Y dejan a los docentes en la tesitura de tener que enseñar contenidos con los que discrepa o de los que duda de su pertinencia. Mejor sería que al estilo de los estándares de internet (RFC’s del IEEE) diferenciasen con claridad lo que es mandatorio (MUST), de lo recomendable (SHOULD) de lo opcional (MIGHT).
+En algunas otras programaciones vistas la aplicación de estos elementos quizás sea algo laxa. En cualquier caso es mi obligación procurar que se observe lo prescrito. Y cualquier duda u opinión en contra, formularla de una forma respetuosa y constructiva.
+
+@@@¿Cuántas sesiones?
+@@@ Status de borrador preliminar para cambiar de arriba a abajo si fuera preciso. Tomarlo como una idea, no como un propósito o compromiso.
+Como idea preliminar estimo  que el bloque se da en 8 a 10 semanas de 3 horas. (24-30 sesiones).
+Por restricciones de tiempo (duración, fechas límite del Practicum III) solo daría las 9 primeras sesiones.
+@@@ Debería verificar si el conteo de horas cumple con lo  esperado, y si hay posibilidad de ampliar la fecha límite de 18 de diciembre (en otras comunidades se empieza y termina más tarde).
+
+Fechas disponibles: (22,23,28,29,30-N,5,12,23,24-D)
+
+Sesión 1 – Presentación y prospección. Diversos medios de publicación
+Fecha proyectada: 22-N
+¿Qué es esta unidad?¿Cuáles son sus contenidos?¿Cómo se evalúa?¿Qué conocimientos previos tienen los alumnos?¿Para qué sirven estos contenidos?¿Qué pretenden conseguir y qué utilidad tiene para los alumnos?
+
+Diversos medios de publicar contenidos. Webs estáticas, blogs, foros, redes sociales.
+
+Sesión 2 – El nacimiento del WWW
+Fecha proyectada: 23-N
+Presentación del contexto tecnológico de 1989-1991 y las necesidades iniciales a las que responde la web.
+Presentación de los elementos tecnológicos de la Web
+(El protocolo HTTP, Rudimentos de HTML, URLs,URIs,URNs)
+Ver ejemplos sencillos.
+
+Sesión 3 – HTML básico
+Fecha proyectada: 28-N
+Elementos sintácticos del HTML. Elementos, atributos, entidades, ...
+Estructura y elementos de formato básicos del HTML (obviando cabecera): h1,p,a,b,i,img ...
+
+Sesión 4 – HTML – estilos básicos
+Necesidad de personalizar estilos. Comparar elementos de estilo directo (font,style,b,i, …) frente a definir y reutilizar estilos.
+Elementos div y span. Atributos class.
+El lenguaje CSS. Definición embebida en el HTML y en ficheros externos.
+
+Sesión 5 – CSS – Definiciones de tipos de fuentes, espaciado, colores
+Familias de fuentes: serif, sans-serif, monospaced, cursive…
+Distintas unidades de tamaño: pt,px,em,%
+Modificadores del texto (size,font,font-weight,.font-style,font-decoration)
+Modificadores del tamaño y espaciado de bloques (size … padding, margin).
+Modelos de colores (RGB, HSL,…)
+Modificadores de color (color,background...)
+
+Sesión 6  HTML Layout de páginas
+Ubicación de bloques.
+
+
+Sesión 7 HTML Elementos embebidos, Microformatos, SEO
+@@@
+
+Sesión 8 HTML dinámico
+@@@
+
+Sesión 9 – Libre para refuerzo, hacer un ejemplo práctico, o revisar trabajos que hayan hecho los  alumnos.
+@@@
+
+-->
+
+----
+
+Problemas con las licencias
+Dentro de Github no se ofrecen las licencias CC.
+
+
+----
+
+Quizás habría que  justificar cada uno de los contenidos, objetivos, cómo son cubiertos dentro de la programación.
+
+Idea de introducir una actividad en la que ellos corrijan mi respuesta a las cuestiones del contenido, lo justifiquen, comenten, planteen dudas.
+
+Idea de plantear un formulario de qué opinan de cómo he impartido las clases. Las metodologías, el nivel de dificultad/adecuación de los ejercicios, etc.
+Quizás este formulario se podría plantear a través de la web. Debería conseguir alguna página PHP sencilla para escribir los elementos del formulario en un fichero.
 
 ### Pendiente de incorporar
 

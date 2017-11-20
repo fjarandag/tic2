@@ -43,8 +43,16 @@ Trabajadas las dos primeras presentaciones (introducción y breve historia)
 ### 1115
 Revisando la presentación de XHTML
 
+### 1117
+cont 1118
+Revisando programación didáctica
+Revisando sesiones Pedro Jesús Blázquez sobre las memorias a entregar
+
 # Planteadas
 ## Prioritarias
+- [ ] Finalizar presentaciones teoría
+- [ ] Revisar ejercicios. Enunciados. Criterios de evaluación.
+- [ ] Modelo de respuesta a los contenidos expuestos en el curriculum. Preguntas formulables
 
 ## Importantes
 * [ ] Comparar con modelos de programaciones didácticas (asignatura D.Curricular)
@@ -53,6 +61,7 @@ Revisando la presentación de XHTML
 * [ ] Preparar una respuesta de referencia a los contenidos del Curriculum oficial
 
 ## Interesantes
+- [ ] Homogeneizar licencias
 * [ ] Ensayar descarga e instalación XAMPP
 * [ ] Ensayar descarga e instalación de MediaWiki
 * [ ] Ensayar descarga e instalación de un WordPress

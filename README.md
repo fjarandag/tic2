@@ -17,5 +17,7 @@ Licencia: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) (salvo don
 
 |Nombre/Patrón|Descripción|
 |:------------|:----------|
+|02-progdidac.md|Programación didáctica|
+|1xx-*.md|Desarrollos actividades|
 |98-tareas.md|Tareas realizadas y propuestas|
 |99-misc.md|Otras anotaciones|
