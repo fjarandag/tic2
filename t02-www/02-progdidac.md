@@ -4,7 +4,7 @@ TIC 2º Bachillerato - Bloque publicación Internet - Programación didáctica
 (información privada)
 
 ### Objetivos
-De acuerdo a lo especificado en la legislación autonómica [^BOJA-Bachillerato],
+De acuerdo a lo especificado en la legislación autonómica [^BOA-Bachillerato],
 1. Utilizar y describir las características de las herramientas relacionadas con la web social identificando las funciones y posibilidades que ofrecen las plataformas de trabajo colaborativo.
 2. Elaborar y publicar contenidos en la web integrando información textual, gráfica y multimedia teniendo en cuenta a quién va dirigido y el objetivo que se pretende conseguir.
 3. Analizar y utilizar las posibilidades que nos ofrecen las tecnologías basadas en la web 2.0 y sucesivos desarrollos aplicándolas al desarrollo de trabajos colaborativos.
@@ -81,7 +81,30 @@ Se mostrará a los alumnos algo de código **PHP** y **javascript** para la gene
 
 La velocidad a la que cubramos la base teórica y los ejercicios básicos es una incógnita. Por comodidad en vez de sesiones divido el tema en apartados (la palabra *sección* es demasiado parecida a *sesión*).
 
-### Apartados programados
+#### Temporización Planteada
+(versión de 21/Nov)
+1. Introducción+lenguaje HTML
+  - Presentación de un ejemplo de HTML trivial
+    - Conceptos: Lenguaje de marcado, etiquetas, atributos, comentarios. Comparación con lenguajes que conozcan (como Python)
+  - Presentación de un HTML con los formatos más básicos.
+    - Párrafos y saltos de línea. (por ejemplo "La princesa está triste ...").
+    - Introducción de negritas e itálicas y subrayados. Anidación de elementos (por ejemplo "* **divide** ut regnes* (J.César)")
+    - Cuestión de mejor utilizar formatos semánticos que formatos directos. Por ejemplo cite o em y strong. Mostrar la lista completa que hay en la especificación de html5.
+    - Azarosa vida del subrayado. Deprecado(obsoleto) y redefinido
+
+    -  caracteres de escape, entidades, encoding.
+  - Elementos especiales, +formatos básicos)+crear primer HTML
+  - ¿Hacemos corto? Continuar a siguiente tema.
+2. URI's, enlaces/anclas con más profundidad+Imágenes, cabeceras. Estilos.
+3. Historia, listas. Tablas. Div, CSS básico
+4. HTTP, Formularios.
+5. Contenidos del Curriculum (Web Social, tendencias)
+6. repaso
+7. Control
+8. Finalizar trabajos, Feedback control.
+9. Feedback trabajos. Reserva.
+
+### Apartados programados (antiguo, revisar)
 
 1. Introducción
 	~ Qué se pretende con esta unidad. Importancia del tema y relación con otros temas. Tantear conocimientos previos de los alumnos. Tantear qué temáticas les pueden motivar más a la hora de plantear ejercicios.
@@ -260,7 +283,7 @@ Según [DigComp 2.0](https://ec.europa.eu/jrc/en/digcomp/digital-competence-fram
 -->
 
 ### Referencias
-[^BOJA-Bachillerato]: Gobierno de Aragón,  Orden ECD/494/2016 publicado en BOA 3 de junio, p 14.377
+[^BOA-Bachillerato]: Gobierno de Aragón,  Orden ECD/494/2016 publicado en BOA 3 de junio, p 14.377
 [^DigComp]: Servicio de Comisión Europea para la Ciencia y el Conocimiento (2017), Digital Competence Framework for citizens, Comisión Europea. Recuperado de https://ec.europa.eu/jrc/en/digcomp/digital-competence-framework
 [^MECD-Competencias]: Ministerio de Educación, Ciencia y Deporte (2015). Competencias clave – Recuperado de https://www.mecd.gob.es/educacion/mc/lomce/el-curriculo/curriculo-primaria-eso-bachillerato/competencias-clave/competencias-clave.html
 [^LSGV-SEIN]: La Salle Gran Vía. Innovación Pedagógica (SEIN). Recuperado de http://www.lasallegranvia.es/proyectos/programas-la-salle/innovacion-pedagogica-sein.html

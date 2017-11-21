@@ -2,8 +2,8 @@
 /t02-www/victor/xhtml.zip
 /t02-www/victor/xhtml/css.ppt
 /t02-www/victor/xhtml/xhtml.ppt
-/t01-prog/temp/*
-/hoard/*
-/private/*
+**/temp/*
+**/hoard/*
+**/private/*
 /t02-www/eclipse-project/WebContent/attic/*
 /t02-www/eclipse-project/WebContent/seq/*.txt

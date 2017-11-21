@@ -298,6 +298,11 @@ Sesión 9 – Libre para refuerzo, hacer un ejemplo práctico, o revisar trabajo
 Problemas con las licencias
 Dentro de Github no se ofrecen las licencias CC.
 
+GPL (al menos la primera versión) es una licencia 'vírica' que obliga a los trabajos derivados a ser GPL también.
+Lo que inicialmente pretendía es que cualquiera que utilice el trabajo, simplemente atribuya y referencie.
+No obstante yo había puesto el Share Alike. De modo que quizás era esencialmente lo mismo.
+No obstante habría que considerar a qué tipo de trabajos se les exige el SA. No es lo mismo por ejemplo que alguien prepare una obra en la que el 50% o más es mi trabajo (por ejemplo que alguien prepare una unidad didáctica inmediatamente encima de la mía), a otra en la que simplemente se utilice una parte, o mi obra sea una parte secundaria y prescindible (por ejemplo que copien una definición o una tabla, correctamente referenciada, o que aparezca en una compilación de recursos libres adicionales)
+- [ ] Debería revisar la GPL3 y la CC SA en busca de detalles tales como la casuística del Share-alike.
 
 ----
 
@@ -307,6 +312,80 @@ Idea de introducir una actividad en la que ellos corrijan mi respuesta a las cue
 
 Idea de plantear un formulario de qué opinan de cómo he impartido las clases. Las metodologías, el nivel de dificultad/adecuación de los ejercicios, etc.
 Quizás este formulario se podría plantear a través de la web. Debería conseguir alguna página PHP sencilla para escribir los elementos del formulario en un fichero.
+
+### 1120
+El Git flavoured markdown no parece incluir soporte para notas al pie (que por ejemplo estaba utilizando para la lista de referencias).
+Por el momento he utilizado un marcado tentativo `[^footRef]` dentro del cuerpo del texto y `[^footRef]:` en la definición de los pies.
+Alternativamente, podría utilizar algo de html, tal y como se sugiere en https://stackoverflow.com/questions/25579868/how-to-add-footnotes-to-github-flavoured-markdown
+Alternativamente, se podría evitar utilizar notas al pie (por ejemplo haciendo la referencia completa dentro del texto).
+Alternativamente, se podría introducir una caja `div` para las digresiones (como hacen en el sitio [WaitButWhy](https://waitbutwhy.com/) )
+
+----
+
+Posiblemente interesante poder obtener la uri data: de un fichero. Podría ser interesante obtenerlo desde javascript
+https://stackoverflow.com/questions/6978156/get-base64-encode-file-data-from-input-form
+
+Desde línea de comandos también es posible (quizás preferible).
+En linux `base64`. En Windows [`certutil -encode data.txt tmp.b64 && findstr /v /c:- tmp.b64 > data.b64`]( https://www.igorkromin.net/index.php/2017/04/26/base64-encode-or-decode-on-the-command-line-without-installing-extra-tools-on-linux-windows-or-macos/)
+
+Pero la utilidad de esto parece cuestionable (¿Cuándo lo van a necesitar realmente los alumnos?). Quizás específicamente en casos donde se espera que el HTML lo contenga todo. Los recursos no deberían ser demasiado grandes y no ser cargados de balde.
+
+----
+De la revisión de hoy:
+SVG no es el único modo de preparar documentos con dibujo vectorial. Víctor me muestra como con programas de CAD prepara algunas páginas imprimibles para los alumnos.
+
+Estoy evitando introducir documentos de libreoffice (como la programacion01) en git a causa de que son comprimidos y la delta no se comportará demasiado bien. Revisando veo personas que proponen descomprimir antes de registrar cambios:
+- https://stackoverflow.com/questions/975167/uncompress-openoffice-files-for-better-storage-in-version-control
+- https://stackoverflow.com/questions/17501146/uncompressing-zipped-data-files-before-committing-to-repository
+
+Posiblemente SublimeText soporta las funcionalidades que aprecio en Atom (preview, control de versiones), y es excelente en algunas otras (Víctor me enseñó una especie de *beautify* para el código HTML, SublimeText sabe cerrar correctamente las etiquetas de HTML).
+También permite arrastrar una carpeta a la vista de árbol.
+
+Atom viene con las funcionalidades de series. Quizás me da pereza pelearme con los gestores de paquetes.
+También observo que las sugerencias se están mostrando mejor en atom. En Sublime por  ejemplo, para aplicar el snipplet de html, no tienes ninguna indicación previa de que con Ctrl+Espacio vas a obtener la estructura del documento.
+
+### 1121
+Consideraciones sobre la temporización
+- Creo que los tres últimos días deberían ser para control, entrega de trabajos y feed-back. Debería haber algunos materiales interesantes para rellenar el último día.
+- Idealmente, también el control/examen debería ser posterior a una sesión de repaso. Sin embargo no sé si eso tiene inconvenientes y tampoco es extremadamente importante.
+  - Si la última semana es martes,miércoles y jueves, el control el mártes no tendría sesión de repaso, o sería del martes anterior porque entre medias tenemos el puente de la Constitución y La Inmaculada. Y posiblemente estaríamos coincidiendo también con otras asignaturas que pudieran control.
+  - Las alternativas para que las cosas cuadren en este sentido no me convencen:
+    - O bien hago una sesión extraoficial al martes siguiente (pero entonces sería complicado evaluarme) ...
+    - O bien anticipo el  control a la quinta o sexta sesión (¿que sería apelmazar todos los contenidos al principio?).
+    - O bien nos organizamos para una sesión específica de feedback por la tarde (pero si queremos confinarlo todo en miércoles y jueves, ¿implicaría dar feedback por la tarde de trabajos entregados por la mañana?).
+- Posiblemente debería posponer o relegar la parte que da una visión histórica. Habría que explicar antes sobre el propio HTML.
+
+Posiblemente la temporización podría quedar del siguiente modo:
+1. Introducción+lenguaje HTML
+  - Presentación de un ejemplo de HTML trivial
+    - Conceptos: Lenguaje de marcado, etiquetas, atributos, comentarios. Comparación con lenguajes que conozcan (como Python)
+  - Presentación de un HTML con los formatos más básicos.
+    - Párrafos y saltos de línea. (por ejemplo "La princesa está triste ...").
+    - Introducción de negritas e itálicas y subrayados. Anidación de elementos (por ejemplo "* **divide** ut regnes* (J.César)")
+    - Cuestión de mejor utilizar formatos semánticos que formatos directos. Por ejemplo cite o em y strong. Mostrar la lista completa que hay en la especificación de html5.
+    - Azarosa vida del subrayado. Deprecado(obsoleto) y redefinido
+
+    -  caracteres de escape, entidades, encoding.
+  - Elementos especiales, +formatos básicos)+crear primer HTML
+  - ¿Hacemos corto? Continuar a siguiente tema.
+2. URI's, enlaces/anclas con más profundidad+Imágenes, cabeceras. Estilos.
+3. Historia, listas. Tablas. Div, CSS básico
+4. HTTP, Formularios.
+5. Contenidos del Curriculum (Web Social, tendencias)
+6. repaso
+7. Control
+8. Finalizar trabajos, Feedback control.
+9. Feedback trabajos. Reserva.
+
+---
+
+Actividades. Idea de pair programming, que se turnen en editar y supervisar. Quizás habría una rúbrica de evaluación triple:
+- Si el trabajo contiene los elementos solicitados.
+- Si el que supervisa está atento (por ejemplo detecta fallos, si hace sugerencias constructivas).
+- Si el que edita atiende a las indicaciones y si es proactivo.
+No sé si puedo tener una hetero-evaluación madurada. Y posiblemente no lo tendría en cuenta de cara a la calificación.
+Se les puede indicar que conforme lo vayan completando, que lo indiquen y les iré facilitando actividades adicionales.
+
 
 ### Pendiente de incorporar
 
