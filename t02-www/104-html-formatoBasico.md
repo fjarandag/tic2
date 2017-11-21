@@ -27,6 +27,27 @@ Debería ser: `&lt;script>window.location.href='http://evil.site/mwa/ha/ha/';&lt
 
 Observo que el elemento `<u>` ha cambiado de significado en HTML 5. Ahora es una especie de texto anotado
 
+### Guión Ejemplo trivial 1
+- Empezar una página HTML nueva con Eclipse o con otro entorno. https://www.w3schools.com/html/
+- Comentar cómo la M de HTML es de Mark-Up (lenguaje de marcado) https://es.wikipedia.org/wiki/Lenguaje_de_marcado
+- Las etiquetas/elementos conforman la estructura del documento y el formato/descripción de partes del contenido.
+- Los paréntesis angulares se llaman cuñas https://es.wikipedia.org/wiki/Par%C3%A9ntesis
+- Fijarse en las etiquetas de inicio y las etiquetas de fin, y en la estructura de árbol un elemento raíz, del que parten distintas ramas.
+- Fijarse en los atributos
+- Introducir un texto de ejemplo (La princesa está triste... Qué tendrá la princesa, los suspiros escapan de su boca de fresa).
+- Mostrar cómo no aparecen los saltos de linea tal y como los hemos indicado en el texto. Comentar cómo antiguamente los editores de texto no "envolvían" (wrap) las líneas, de modo que el editor tenía que introducir saltos de línea, que es posible que no coincidieran con la longitud de línea al presentar (¿Alguien ha visto alguna vez un correo antiguo donde las líneas se desfiguran?). El modo de solucionarlo es hacer que los párrafos y los saltos de línea se especifiquen manualmente.
+- Introducir los saltos de línea, los párrafos, y el siguiente verso (que ha perdido la risa, que ha perdido el color).
+- Introducir un comentario, mostrar el uso de entidades (por ejemplo <Rubén Darío(1896) "Prosas profanas y otros poemas"> )
+  - Preguntar qué sucede si introducimos liberalmente cuñas y comillas.
+	- Escaparlo (&lt; &gt; &quot;), y mostrar referencia https://www.w3schools.com/html/html_entities.asp , https://www.freeformatter.com/html-entities.html
+- Poner la referencia en itálica y el nombre del autor en negrita (estilos directos y anidados)
+- Comentar cómo esto es un formato directo, pero que sería preferible utilizar formatos semánticos en la medida de los posible.
+- Aplicar el blockquote y el cite.
+- Mostrar una referencia completa de los elementos de formato: https://www.w3.org/TR/html5/text-level-semantics.html
+- Comentar cómo hay elementos de bloque (como un párrafo) y elementos *inline* (de caracter) https://www.w3.org/TR/html5/grouping-content.html#grouping-content
+- Comentar el aspecto del encoding, cambiar el encoding del html para engañar al navegadores
+- Cambiar alguna de las letras extendidas para mostrar cómo se muestra correctamente.
+
 ### enlaces
 - [W3Schools - XML Syntax Rules](https://www.w3schools.com/xml/xml_syntax.asp)
   - También [W3Schools - The building blocks of XML documents](https://www.w3schools.com/xml/xml_dtd_building.asp)
@@ -44,6 +65,8 @@ Posiblemente sea preferible que lo hagan por parejas, aunque quizás en tal caso
 
 #### Arreglar páginas rotas
 Dar una página a la que le falten elementos, o estén mal nombrados, o no estén bien emparejados.
+- [ ]
+
 
 #### Ingeniería inversa
 Dar una página que esté ligeramente por encima de sus posibilidades. Por ejemplo [Pencil And Paper Games](http://www.papg.com/)
