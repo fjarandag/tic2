@@ -387,6 +387,34 @@ No sé si puedo tener una hetero-evaluación madurada. Y posiblemente no lo tend
 Se les puede indicar que conforme lo vayan completando, que lo indiquen y les iré facilitando actividades adicionales.
 
 
+### 1122
+**Feedback de la clase**
+No siento que haya ido bien. Problemas técnicos y momentos de sentirme perdido y no saber por dónde tirar.
+Problemas técnicos con el proyector. Utilizando mi adaptador HDMI-VGA.
+- No funciona el modo de las dos pantallas iguales. Tengo que mover contenidos a la segunda pantalla.
+- La resolución del proyector es aparentemente 600x800. Alguna página donde quería ver contenidos me oculta la barra de navegación y no se ve bien. El editor de texto tampoco se comporta según lo esperado en la segunda pantalla (no line-wrap).
+
+He hecho la presentación de la introducción, y el primer ejemplo del HTML, pero no he llegado al punto de los enlaces, ni ha dado tiempo a que ellos se sentaran a preparar el primer HTML.
+
+Víctor me comenta:
+- Tengo que interactuar más con los alumnos, y vigilarlos un poco más. Había alguno que claramente estaba desconectado y enredando con el móvil.
+- Debería prepararme un guión para tener más controlado lo que voy a explicar.
+  - En cierto modo había preparado ese guión para el ejemplo del HTML, pero no lo llegué a imprimir. Estaba en el editor pero en otra pestaña, y en la ventana de tamaño reducido.
+- Para el siguiente día (jueves 23) que vayan sin falta a los ordenadores a hacer el primer HTML. Es importante que lo hagan manualmente sin hacer un copy-paste.
+- Tengo que esforzarme por centrarme y cubrir los puntos planeados. Si luego da tiempo de repasar y entrar en detalles pues entonces bien. Por ejemplo el tema de las entidades no era necesario haberlo dado.
+- Debería esforzarme por utilizar el Sublime Text.
+
+----
+URL's recopiladas
+- https://stackoverflow.com/questions/857876/what-actually-is-pcdata-and-cdata
+- [Diacríticos](https://en.wikipedia.org/wiki/Combining_character)
+- Ejemplo Unicode excesivo (diacríticos): https://stackoverflow.com/a/1732454/1117429
+- Otro elemento interesante para hacer páginas activas. Scrollama.js: http://www.microsiervos.com/archivo/ordenadores/scrollama-libreria-javascript.html , [Ejemplo](https://russellgoldenberg.github.io/scrollama/fixed-css/)
+- Lo que comenté de la sonda Galileo es más bien correcto. El problema era con la antena, no con las cámaras: https://en.wikipedia.org/wiki/Galileo_&28spacecraft%29#Main_antenna_problem ,
+https://youtu.be/3ubr151wrHQ?t=2m45s
+
+
+
 ### Pendiente de incorporar
 
 - [ ] Dentro de las anotaciones genéricas del máster se introdujeron de esta unidad.
