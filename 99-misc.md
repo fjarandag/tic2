@@ -413,7 +413,60 @@ URL's recopiladas
 - Lo que comenté de la sonda Galileo es más bien correcto. El problema era con la antena, no con las cámaras: https://en.wikipedia.org/wiki/Galileo_&28spacecraft%29#Main_antenna_problem ,
 https://youtu.be/3ubr151wrHQ?t=2m45s
 
+### 1123
+La clase de hoy va bastante más normal. También es que era menos ambiciosa. Muestro un ejemplo con una imagen y con un enlace. Para que se pongan a trabajar.
 
+- Debería haber revisado y actualizado el guión. Algunas cosas quizás estaban fuera de sitio.
+- Se podría mejorar que en los ejemplos habría que marcar más claramente los elementos que se pretende resaltar.
+- Diferencia con el tema de la alineación de la imagen. Quizás no debería haber explicado el atributo align directo (hacerlo con estilos)
+- Encuentro que los alumnos casi no saben crear un fichero con el editor de texto.
+- Otros en cambio dominan tanto el tema que ya estaban probando cosas con CSS. Debería tener las tareas suplementarias ya.
+- No tengo muy claro cómo voy a recoger y controlar los trabajos. Podría pedir los nombres y marcar cuándo está hecho.
+- Las instrucciones quizás no estaban suficientemente claras. Algunos apenas pusieron texto, otros pusieron texto con variedad de estilos e incluso enlaces.
+
+### 1126
+Al hacer el *push* a GitHub hay conflictos. Probablemente es que no está bien hacer un *ammend* sobre una versión ya subida.
+
+Tengo que establecer algún modo de hacer llegar contenidos a los alumnos. Quizás a través de twitter y de drive.
+
+Los materiales preparados deberían estar con antelación para ser revisados y distribuidos. Haber postergado la tarea es netamente perjudicial. Mejor hubiera sido desconectar los dos últimos días que los dos primeros.
+
+- [Confluence (Software colaborativo)](https://en.wikipedia.org/wiki/Confluence_(software)) : Quizás los *issue tracking* no son por sí un sistema de compartir conocimiento. Pero resulta relevante saber si un asunto se ha registrado antes y cual ha sido su desenlace. Conocer qué cuestiones están pendientes de resolver y quién  está asignado para evitar repetir esfuerzos. Muchas plataformas en realidad son la agregación de distintas herramientas individuales (wikis, repositorios, etc)
+- [Agregar una página a Google](https://www.google.com/webmasters/tools/submit-url?urlnt&pli=1)
+- [Agregar un sitio/página a distintos buscadores](https://www.smartz.com/web-marketing/search-engine-optimization/submit-site-to-search-engines/)
+Es posible que los buscadores pidan verificar la propiedad del sitio (colocando un fichero en el directorio raiz). La indexación sigue su propia planificación y filtros previos. Es probable que
+
+- [All list of values for HTML rel attribute](https://stackoverflow.com/questions/9317233/all-list-of-values-for-html-rel-attribute)
+  - https://www.w3schools.com/tags/att_a_rel.asp
+  - https://www.w3.org/TR/html5/links.html#linkTypes
+  - http://microformats.org/wiki/existing-rel-values#HTML5_link_type_extensions
+
+Experimentado el rel="bookmark". Parece que el ejemplo de w3c induce a confusión. No obstante no lo vamos a ver.
+
+- [El protocolo HTTP (versión básica) - Universitat Politècnica de València - UPV
+](https://www.youtube.com/watch?v=wHXRmq75N_Y) Puede servir, pero no me entusiasma.
+- [El protocolo HTTP - HTML Rules
+](https://www.youtube.com/watch?v=S975NVYbe2E) Más corto. Menciona aspectos del estado.
+
+----
+Idea de ejercicio, pasarles a los alumnos un contenido escaneado (de alguna revista divulgativa, del "What if" de R.Munroe", etc.).
+Habría que encontrar un texto de un tamaño moderado (dos parrafos) que contuviera al menos dos complicaciones.
+- Alguna imagen insertada
+- Listas
+- Notas al pie
+- tablas
+
+Lo ideal sería suministrar a cada alumno un ejemplo distinto, pero llevaría algo de tiempo encontrar ejemplos buenos. Por el momento veo pocos ejemplos de 3 complicaciones o más. También habría que buscar en internet la presencia de los contenidos.
+
+Alternativamente se podría preparar algún contenido sintético, con unas pocas variantes se podrían generar un gran número de combinaciones.
+
+No obstante en un principio se había acordado que hagan una página según el tema que prefieran siguiendo la plantilla. No sería oportuno tener distintas actividades sobre los mismos aprendizajes. Y precisamente debería destinar el resto de las actividades en cubrir el resto de los estándares de aprendizaje evaluables contemplados.
+- **Crit.TIC.2.1. Utilizar y describir las características de las herramientas relacionadas con la web social ...** estaría cubierto con la parte teórica.
+- **Crit.TIC.2.2. Elaborar y publicar contenidos en la web** estaría cubierto con esta parte práctica básica.
+- **Crit.TIC.2.3. Analizar y utilizar las posibilidades que nos ofrecen las tecnologías basadas en la web 2.0** parcialmente cubiertas por la teoría.
+  - Por ejemplo se les puede pedir un mini-trabajo con comentarios e ideas alternativas sobre el desarrollo que he preparado sobre los contenidos.
+  - Se les puede pedir algo de programación de servidor (por ejemplo PHP) o de Javascript en la página. Hay ejemplos preparados en relación con los estilos, pero posiblemente habría que aportar algo más.
+  - Sobre el uso de las herramientas colaborativas, se les podría pedir por ejemplo que colgaran una presentación en slideshare o similares, y que lo publicaran en Twitter, y que enviaran el enlace. Eso se nos ha pedido en asignaturas del máster. Pero tengo dudas de si es oportuno que se estén creando cuentas personales en redes y estén "polucionando" internet. Particularmente si estuviera haciéndome "autobombo".
 
 ### Pendiente de incorporar
 

@@ -95,10 +95,10 @@ La velocidad a la que cubramos la base teórica y los ejercicios básicos es una
     -  caracteres de escape, entidades, encoding.
   - Elementos especiales, +formatos básicos)+crear primer HTML
   - ¿Hacemos corto? Continuar a siguiente tema.
-2. URI's, enlaces/anclas con más profundidad+Imágenes, cabeceras. Estilos.
+2. URI's, enlaces/anclas con más profundidad+Imágenes, cabeceras. Estilos semánticos (em,strong,etc).
 3. Historia, listas. Tablas. Div, CSS básico
 4. HTTP, Formularios.
-5. Contenidos del Curriculum (Web Social, tendencias)
+5. <del>Contenidos del Curriculum (Web Social, tendencias)</del><ins>CSS conceptos varios</ins>
 6. repaso
 7. Control
 8. Finalizar trabajos, Feedback control.
