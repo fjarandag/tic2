@@ -67,5 +67,7 @@ Revisando sesiones Pedro Jesús Blázquez sobre las memorias a entregar
 * [ ] Ensayar descarga e instalación de un WordPress
 * [ ] Ensayar crear un sitio web en un hospedaje gratuíto
 * [ ] Localizar o elaborar un compendio de tipos de actividades, estrategias, buenas prácticas que se pudieran aplicar.
+- [ ] Información sobre CSS Flexbox. (via https://www.w3schools.com/html/html_layout.asp) ¿?
+- [ ] Leer sobre [SASS: Syntactically Awesome Style Sheets](http://sass-lang.com/)
 
 ## Inviables

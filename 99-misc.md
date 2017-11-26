@@ -468,6 +468,46 @@ No obstante en un principio se había acordado que hagan una página según el t
   - Se les puede pedir algo de programación de servidor (por ejemplo PHP) o de Javascript en la página. Hay ejemplos preparados en relación con los estilos, pero posiblemente habría que aportar algo más.
   - Sobre el uso de las herramientas colaborativas, se les podría pedir por ejemplo que colgaran una presentación en slideshare o similares, y que lo publicaran en Twitter, y que enviaran el enlace. Eso se nos ha pedido en asignaturas del máster. Pero tengo dudas de si es oportuno que se estén creando cuentas personales en redes y estén "polucionando" internet. Particularmente si estuviera haciéndome "autobombo".
 
+----
+
+Observo que hay un modo de layout llamado CSS Flexbox. (via https://www.w3schools.com/html/html_layout.asp).
+
+----
+
+Ahora que estoy introduciendo guiones de sesiones, me preocupa que existe redundancia con los ficheros temáticos.
+Naturalmente durante las sesiones voy a estar utilizando los guiones. Así que en algún momento debería ir portando los contenidos a los ficheros 1* temáticos (que supuestamente se utilizarían para futura referencia).
+
+----
+
+Alternativas para visualizar markdown (preferiblemente en un navegador)
+https://stackoverflow.com/questions/12081390/view-or-test-readme-files-md-in-a-browser-prior-to-pushing-to-an-online-reposit
+
+Mirando sobre Bruce Lawson (uno de los gurús/popes del html5) http://www.brucelawson.co.uk
+http://www.seocom.es/blog/html5-seo-algoritmo-scooby-doo
+http://csszengarden.com/?cssfile=http://www.brucelawson.co.uk/zen/sample.css
+
+### 1127
+Idea sobre estilos multi-columna. Posiblemente en medios paginados, o sección por sección sería posible utilizar un modelo multi-columna para aprovechar mejor el espacio. Buscado en Google `css paged media multiple columns`
+Veo que existe una especificación (https://www.w3.org/TR/css-multicol-1/), aunque el estado es de recomendación y la fecha reciente (octubre de 2017), de modo que  posiblemente no es utilizable. También entiendo que las definiciones de estos estilos serán fuertemente dependientes de la anchura del viewport.
+
+En https://www.w3.org/TR/CSS/#terms se puede ver un ejemplo, de cómo están ajustando la anchura de una lista larga mediante los atributos computados `column-count:auto;column-width:240px;`
+
+----
+
+Buscando `css depending on block width`. El intento sería poder seleccionar el estilo en función de la anchura disponible (por ejemplo para pasar de un diseño a 4 columnas a un diseño de 3 columnas).
+- https://stackoverflow.com/questions/19157668/scaling-div-width-depending-on-height
+- Encuentro que en el `@media` se puede utilizar el atributo `min-width`. Encuentro enlace a la especificación de CSS-Flex. https://www.w3.org/TR/css-flexbox-1/#min-width-automatic-minimum-size
+
+----
+Víctor
+- Me comenta que él dará la parte de teoría correspondiente a las herramientas colaborativas, y alguna práctica con gestores de contenido (montándoles un servidor en la intranet, harán un trabajo con WordPress o con Joomla).
+- Vemos y me comenta  el modelo de examen.
+- Sobre el asunto de hojas de estilo sale el tema de [Read Mode]( https://chrome.google.com/webstore/detail/read-mode/nagcaahojecfeopbghgihcabgiepploa/reviews?hl=en) para eliminar basurilla de las páginas para leer y para imprimir.
+  - Veo que existen otras alternativas, como [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod?hl=en)
+- Posiblemente sería interesante que yo hiciera mi propio ejemplo de páginas con la plantilla.
+
+
+
 ### Pendiente de incorporar
 
 - [ ] Dentro de las anotaciones genéricas del máster se introdujeron de esta unidad.

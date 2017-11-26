@@ -5,7 +5,7 @@ Guión para la sesión 3 - Miércoles 28 de noviembre de 2017
 - listas
 - Tablas
   - sencillo: tr th td
-  - Que suenen: thead tbody tfoot colgroup col
+  - Que suenen: thead tbody tfoot colgroup col caption
   - Que suene el uso (desaconsejado) para layout de páginas
 - Frames, iFrames. Que suene su existencia pero no los veremos
 - Elementos estructurales de html5:
