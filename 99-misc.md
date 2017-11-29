@@ -500,13 +500,47 @@ Buscando `css depending on block width`. El intento sería poder seleccionar el 
 
 ----
 Víctor
-- Me comenta que él dará la parte de teoría correspondiente a las herramientas colaborativas, y alguna práctica con gestores de contenido (montándoles un servidor en la intranet, harán un trabajo con WordPress o con Joomla).
-- Vemos y me comenta  el modelo de examen.
+- Me comenta que posiblemente estoy concentrando demasiado. Damos en 9 sesiones lo que normalmente se daría en 12. Él dará la parte de teoría correspondiente a las herramientas colaborativas, y alguna práctica con gestores de contenido (montándoles un servidor en la intranet, harán un trabajo con WordPress o con Joomla). Esto implica que
+- Vemos y me comenta  el modelo de examen. Un par de preguntas de desarrollo básicas, 10 preguntas de test, Un par de preguntas de si un fragmento  es correcto o falso
 - Sobre el asunto de hojas de estilo sale el tema de [Read Mode]( https://chrome.google.com/webstore/detail/read-mode/nagcaahojecfeopbghgihcabgiepploa/reviews?hl=en) para eliminar basurilla de las páginas para leer y para imprimir.
   - Veo que existen otras alternativas, como [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod?hl=en)
 - Posiblemente sería interesante que yo hiciera mi propio ejemplo de páginas con la plantilla.
 
+### 1128
 
+[Bruce Lawson - Bruce's Tour of the Sausage Factory (NLHTML5)](https://youtu.be/nXAzctXGEeg) Sobre el desarrollo de estándares. Cosas que han funcionado y cosas que no. No sé si aprovecha para llevar las cosas a su terreno de web component y service workers. t=34m)
+
+[Ensuring a High Performing Web for the Next Billion People - Bruce Lawson (Velocity Amsterdam)](https://youtu.be/f6As5HEkG5E) Habla de los mercados emergentes en Asia, cómo la gran mayoría del tráfico va a dispositivos móviles, frecuentemente de gama baja, frecuentemente en redes de baja velocidad y con un coste significativo, por tanto los servicios de compresión son importantes. También es importante que las aplicaciones estén adaptadas a las idiosincrasias locales (por ejemplo textos en rojo, o pedir un segundo nombre).
+
+https://blog.codinghorror.com/in-programming-one-is-the-loneliest-number/
+Quizás las nuevas tecnologías aíslan a las personas. Quizás hay que advertir en contra de los trabajos solitarios. Quizás un profesor que prepara sus clases y realiza sus tareas de forma totalmente independiente fácilmente puede estar solo.
+
+----
+Reflexiones varias sobre la clase de hoy (debería reflejar junto al guión específico).
+No siento que la cosa haya ido bien.
+Creo que faltó preparación por haber estado preparando la memoria para entregar ayer. También perdí algo de tiempo intentando montar la página que mimetizara el mensaje de fallo de conexión de Chrome.
+
+Algunos elementos que había introducido que creía que aportarían y animarían (la referencia a Bruce Lawson, la importancia de las referencias/enlaces, la obsolescencia de algunos modos de difusión de información) han fallado. Quizás por la falta de preparación, o posiblemente eran prescindibles o incluso contraproducentes en primer lugar.
+
+La referencia que había introducido para seguir de W3CSchools, contenía elementos que no deseaba todavía (por ejemplo el target, estilos, etc en los enlaces), y omitía algunos otros que hubiera querido utilizar (por ejemplo el thead, tbody, tfoot en la tabla).
+
+Al menos he descubierto alguna cosa interesante como las páginas para probar código de W3CSchools.
+
+
+----
+He estado trasteando con el Oracle VirtualBox para simular un servidor web.
+Consigo conectar desde el Ubuntu1004 a mi host.
+He tenido algún problema porque no sabía el equivalente del `ipconfig` para Linux.
+Hay que hacer `ifconfig` e `ip route show` para conocer la información. En este caso la dirección del Host era 10.0.2.2.
+- https://2buntu.com/articles/1513/accessing-your-virtualbox-guest-from-your-host-os/
+- [Network configuration commands](http://www.tldp.org/LDP/intro-linux/html/sect_10_02.html)
+
+
+Pero lo que necesitaba era acceder a una máquina con sistema de ficheros case-sensitive para mostrar cómo los nombres de fichero importan. Tendría mucho que probar y configurar y posiblemente sería preferible acceder a mi propio servidor web para hacer la prueba.
+
+----
+- [danluu - How web bloat affects people with slow connections](https://danluu.com/web-bloat/) (via [Bruce Lawson 17/11](http://www.brucelawson.co.uk/2017/reading-list-184/))
+- [Tim Berners-Lee on the future of the web: ‘The system is failing’](https://www.theguardian.com/technology/2017/nov/15/tim-berners-lee-world-wide-web-net-neutrality)
 
 ### Pendiente de incorporar
 
