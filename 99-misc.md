@@ -542,6 +542,20 @@ Pero lo que necesitaba era acceder a una máquina con sistema de ficheros case-s
 - [danluu - How web bloat affects people with slow connections](https://danluu.com/web-bloat/) (via [Bruce Lawson 17/11](http://www.brucelawson.co.uk/2017/reading-list-184/))
 - [Tim Berners-Lee on the future of the web: ‘The system is failing’](https://www.theguardian.com/technology/2017/nov/15/tim-berners-lee-world-wide-web-net-neutrality)
 
+### 1129
+
+Los elementos que introduje en vez de div: (nav, header, footer, section ...) son válidos en html5, pero no en xhtml. ¿Qué variante de html es preferible?
+[At the end of the day, why choose XHTML over HTML?](https://stackoverflow.com/questions/867498/at-the-end-of-the-day-why-choose-xhtml-over-html)
+
+----
+Vistos y archivados distintos vídeos, de Linus Tovards, de Tim Berners Lee, y de una socióloga alarmando sobre la influencia de los algoritmos y de la publicidad sobre nuestro comportamiento.
+
+----
+formularios
+- https://www.w3.org/TR/html51/sec-forms.html#sec-forms
+-
+
+
 ### Pendiente de incorporar
 
 - [ ] Dentro de las anotaciones genéricas del máster se introdujeron de esta unidad.
