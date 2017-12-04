@@ -555,7 +555,49 @@ formularios
 - https://www.w3.org/TR/html51/sec-forms.html#sec-forms
 -
 
+### 1203
+META-anotación:
+El fichero de miscelánea es prácticamente una bitácora. Quizás habría que reflejarlo así (para la próxima vez). Posiblemente  si hubiera varios colaboradores cada uno debería tener su propio log. Posiblemente el fichero de tareas es redundante (y de hecho no lo estoy actualizando). Posiblemente el fichero de tareas solo sería necesario si hiciera falta un registro centralizado de las cosas que hay que hacer. O de un registro de actividad. En mi caso basta con la sección al final del log.
 
-### Pendiente de incorporar
+----
+Algunos enlaces:
+- [Fernando Tricas. 2017-11-13 - En la Jornada 'Ciberseguridad: Retos y Oportunidades' de Walqa](http://webdiis.unizar.es/~ftricas/blog/otros/2017-11-13-16-00.html) Esto quizás tendría más que ver en el apartado de seguridad. Trata de un experimento de qué sucede cuándo perdemos un pendrive en la calle. Tres consejos básicos (actualizar, backups, passwords) y algunas tendencias.
+- [Terence Eden - Super Tiny Website Logos in SVG](https://shkspr.mobi/blog/2017/11/super-tiny-website-logos-in-svg/) Ofrece un repositorio de iconos de redes sociales en SVG. Cada uno ocupa  menos de 1KB. Vía [Bruce Lawson - reading list 1 dec 2017](http://www.brucelawson.co.uk/2017/reading-list-185/). Tenía en la cabeza la idea de tener una página de enlaces  dentro del ejemplo. Pero ni es necesario, y muy posiblemente no se abordará y no debería retrasarme en otros asuntos por esto.
 
-- [ ] Dentro de las anotaciones genéricas del máster se introdujeron de esta unidad.
+----
+Memoria de la clase de 29/Nov
+- De lo preparado solo entro en lo de formularios. HTTP entonces queda fuera. Debería haber verificado previamente un ejemplo significativo de formulario. Quise utilizar el de la portada de Google pero no contaba con la cantidad de scripts que había entre medias. Hice el ejemplo del W3C, introduciendo el select y el hidden que aquel omite.
+- La explicación costó del orden de 25 minutos. Con 5 minutos de inicio dejando del orden de 20 minutos o menos para trabajar. Si hubiera explicado HTTP posiblemente hubiera costado del orden de 10 minutos más.
+- Víctor puso la tarea de la página de ejemplo en LaSalleNet. Traté de vigilar y estar disponible, pero nadie me preguntó ninguna duda. Posiblemente debería de haberme interesado de motu proprio si entendían de qué iba la tarea y qué pretendían hacer.
+- Víctor me comenta sobre Bootstrap. Quizás se espera que aprenda sobre ello y prepare algún ejemplo.
+
+----
+Prioridades.
+- Entiendo que ahora mismo debería haber puesto en claro aguna propuesta de cómo sería el control escrito.
+- Adicionalmente debería de tener un ejemplo mío de cómo sería la parte práctica.
+- Hace falta revisar cómo tengo idea de evaluar las competencias. Mi interacción ha sido limitada y no conozco el nombre de los alumnos.
+
+----
+Ideas sobre el examen
+- Andaba pensando en preparar una parte de test más extensa, por ejemplo de unos 30-40 items de seleccionar si verdadero o falso.
+- Adicionalmente podría hacerse cierta gradación en el peso de cada elemento. Hay elementos que deberían ser evidentes, y hay otros que podrían ser sutilmente capciosos. Se podría que hacer que los primeros tengan mayor peso que los segundos para que los puntos de aprobar cuesten menos que los puntos de subir hasta sobresaliente.
+- Adicionalmente se podría otorgar un número de "comodines" para preguntas que quizás excedan lo que es razonable saber/discernir.
+- No obstante todo ello parece que añade complicación, y habría que verlo en un ejemplo concreto y qué aporta en concreto en el aprendizaje y en la evaluación.
+
+### 1204
+Mirando sobre las "líneas Braille" por si hubiera ocasión de hablarles de accesibilidad. He encontrado una página duplicada en Wikipedia. He aplicado la plantilla de fusión de páginas. Quizás podría dar pie a explicarles como el formato Wiki puede ser procesado facilmente a HTML. Cómo Mediawiki contiene plantillas que permiten la transclusión. O quizás es tratar de abordar demasiado.
+- https://en.wikipedia.org/wiki/Refreshable_braille_display
+- https://es.wikipedia.org/wiki/Dispositivo_Braille
+- https://es.wikipedia.org/wiki/L%C3%ADnea_braille
+- https://es.wikipedia.org/wiki/Wikipedia:Fusiones
+
+----
+Me he descargado y probado un editor HTML gratuito (Kompozer) para ver si se podía componer una página web con una curva de aprendizaje menor. Me he visto bastante torpe para ir preparando una página web con bloques anidados. No podía editar código y visualizar el resultado simultáneamente, y las ayudas para los nombres de atributos y para la sintaxis al editar código no existían.
+No soy objetivo, pero creo que a poco que aprendas HTML puedes desarrollar con más agilidad en un editor de texto inteligente (también es cierto que el editor de texto estilo Atom o Sublime ocupan más disco que este editor específico).
+Quizás existan otros programas de edición mejores, pero de momento no estoy por evaluar nada más.
+
+----
+Preparado un ejemplo acerca del modelo de cascada (herencia de atributos) de CSS.
+Tangencialmente
+- [noupe.com - 80 Stunning Background Patterns For Your Websites](https://www.noupe.com/design/80-stunning-background-patterns-for-your-websites.html)
+### Tareas

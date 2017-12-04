@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Prueba Cascade</title>
+
+  <style type="text/css">
+  body {
+    background-image: url('images/trenzado.jpg');
+    background-color: lightyellow;
+    font-family: Georgia,serif;
+    font-size: 14pt;
+  }
+  div {
+    border: 1px solid black;
+    margin: 4px;
+    padding: 2px;
+    background-color: rgba(128,255,64,0.8);
+  }
+  .class1 {
+    background-color: #00ff00; /* lime */
+    display: block;
+  }
+  .class2 {
+    background-color: hsl(240,100%,80%);
+    width: 33vw; min-width: 20em;
+    display: block;
+  }
+  #id2 {
+    background-color: hsla(270,100%,80%,0.3);
+  }
+/* Release the Kraken !
+  * {
+    font-family: Comic Sans, cursive, sans-serif ! important;
+  }
+*/
+  </style>
+</head>
+<body>
+  <div class="class1">div.class1<br>
+<!--
+style="background-color:hsl(330,100%,80%);font-family:monospace;"
+-->
+    <div class="class2" id="id2" style="background-color:hsl(330,100%,80%)">div.class2#id2<br/>
+      Lorem ipsum dolor sit amet</div>
+
+  </div>
+
+  <style >
+    .descripcion { font-size: x-small;font-family:sans-serif;}
+  </style>
+  <div class="descripcion">
+    El propósito de esta página es mostrar y experimentar la herencia de estilos CSS. Los estilos se propagan dentro de la cascada de dos maneras:
+    <ul>
+      <li>Los estilos de los elementos externos (body) se transmiten hasta los elementos internos.</li>
+      <li>Los selectores más concretos tienen precedencia sobre los más genéricos: * &lt; element (1) &lt; .class (10) &lt; #id (100) &lt; atributo style (1000) &lt; ! important(10000).</li>
+    </ul>
+    <p>Quizás la metáfora es que sobre un elemento concreto cae una <em>cascada</em> de atributos de estilo, de lo más externo a lo más interno y de lo más genérico a lo más específico. Algunas reglas entrarán en conflicto, en tal caso la última aplicada (más específica) prevalece.</p>
+    La secuencia para mostrar es la siguiente:<ol>
+      <li>Refrescar sobre las premisas: elementos div anidados. Atributos class e id. CSS: reglas, selectores, atributos</li>
+      <li>Comentar sobre los atributos de estilo aplicados, y cómo en el interior especificamos distintos fondos, pero por ejemplo conservamos el tipo y tamaño de letra <ul>
+        <li>Referencia de colores: <a href="https://www.w3schools.com/cssref/css_colors_legal.asp" title="W3CSchools Colors">https://www.w3schools.com/cssref/css_colors_legal.asp</a> </li>
+        <li>Referencia de fuentes: <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp" title="W3CSchools Web Safe Fonts">https://www.w3schools.com/cssref/css_websafe_fonts.asp</a> </li>
+      </ul>
+      </li>
+      <li>Inspeccionar en el navegador div.class2#id2 y mostrar cómo los estilos más genéricos y externos han sido redefinidos.</li>
+      <li>Suprimir el atributo style para mostrar cómo el estilo #id2 prevalece.</li>
+      <li>Suprimir el estilo #id2 para mostrar cómo .class2 prevalece.</li>
+      <li>Suprimir el estilo .class2 para mostrar cómo el estilo de div prevalece frente a lo establecido en .class1 .</li>
+      <li>Restaurar los estilos anteriores, y descomentar el estilo prioritario (!important) para mostrar cómo hacer que nuestros estilos prevalezcan sobre otros más específicos.</li>
+    </ol>
+  </div>
+</body>
+</html>
