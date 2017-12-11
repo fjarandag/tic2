@@ -1,0 +1,32 @@
+/*
+Es
+*/
+
+.page-home .menu {
+    width: auto;
+    float: none; /* En vez de left */
+}
+
+.page-home .menu ul{
+   list-style-type: none;
+   text-align: center;
+}
+
+.page-home .menu li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+
+.page-home .menu li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+
+.page-home .menu li a:hover{
+   background-color: #333;
+   color: #fff;
+}

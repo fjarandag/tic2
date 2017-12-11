@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>La galer&iacute;a de fotos</title>
+<link href="comun.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="page-galeria">
+  <div class="container">
+    <header>
+      <h1>Página web de ejemplo de Javier Aranda</h1>
+      <h2>Algunas imágenes</h2>
+    </header>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="home.htm" title="para conocerme">Presentaci&oacute;n</a></li>
+		<li><a href="recursos.htm" title="Recursos sobre HTML/CSS">Recursos</a></li>
+        <li><a href="galeria.htm" title="Algunas imágenes">Galer&iacute;a de fotos</a></li>
+        <li><a href="formulario.htm" title="opina sobre mi web">Formulario</a></li>
+      </ul>
+    </nav>
+
+    <section class="content">
+      <section id="foto-EnObras">
+      	<div class="marco-foto">
+      		<img src="imagenes/venancio.gif" alt="Imagen en Obras" width="200" height="116" title="Existía otra versión. En esta no hace la &quot;V&quot; de Venancio"/>
+			<br/>Sitio en obras... a ratos
+		</div>
+		<p>En los sitios en construcción a veces se coloca un mensaje de  "en obras".
+		  Puede ser indicativo de que faltan secciones, puede haber algún enlace roto, etc.
+		   Algunos sitios se quedan en obras <em>sine die</em></p>
+		<p>Esta imagen tiene un fondo transparente,
+		  de modo que si hay un fondo de pantalla (un color, una imagen, otro contenido solapado),
+		  será visible a través de la parte de imágen marcada como transparente
+		  (en aquellos formatos como .gif o como .jpg que lo permiten).
+		  Algunas imágenes pueden definir un canal <strong>alpha</strong> que designa la opacidad(100%) o transparencia (0%) de los píxeles. Puede ser útil para elementos traslúcidos (como una nube), o para los bordes de un cuerpo sólido (habría píxeles en la frontera parte dentro y parte fuera)
+		</p>
+      </section>
+      <section id="foto-filosofos">
+      <!-- Es poco ejemplar aplicar style directamente.
+      No obstante, siendo un ejemplo, es bueno que la información de formato pueda consultarse en el sitio preciso,
+      en vez que buscar en algún lugar recóndito de otro fichero.
+      Problema de que una imagen encaje en el espacio de la caja: https://stackoverflow.com/questions/5369301/css-image-scaling-to-fit-within-area-not-distort
+       -->
+      	<div class="marco-foto" style="float:right;width:38.2%">
+      		<img src="imagenes/filosofos3b.svg"
+      		  alt="SVG Red Petri"
+      		  style="max-width:100%;max-height:100%;" title="Bonito, pero quizás innecesariamente complicado"
+      		  />
+			<br/>Un fichero SVG.
+		</div>
+		<p>Hay un modelado de sistemas concurrentes llamado <a href="https://es.wikipedia.org/wiki/Red_de_Petri">Redes de Petri</a>.
+		<a href="https://en.wikipedia.org/wiki/Dining_philosophers_problem">Los filósofos comensales</a> es un problema clásico de programación concurrente.
+		Este es un fichero <abbr title="Scalable Vector Graphics">SVG</abbr> que elaboré algunos años.
+		Estéticamente es interesante, pero es incierto si es o no es una solución correcta.</p>
+		<p>He asignado a la caja una anchura conforme a la razón áurea, para buscar una proporción atractiva.
+		He establecido que la imagen se escale para ajustarse al tamaño del contenedor.</p>
+	  </section>
+	  <section id="foto-paleBlueDot" style="clear:both;">
+      	<div class="marco-foto" style="float:left;width:38.2%">
+      		<img src="imagenes/pale-blue-dot.jpg" width="225" height="160"
+      		  alt="Imagen The Pale Blue Dot" title="Estás buscando la mota de polvo sobre la franja roja."/>
+			<br/><a href="https://solarsystem.nasa.gov/galleries/pale-blue-dot">The Pale Blue Dot (NASA, 1990)</a>.
+		</div>
+		<blockquote lang="en">&ldquo;Look again at that dot. That's here. That's home. That's us.
+		 On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was,
+		 lived out their lives. The aggregate of our joy and suffering, thousands of confident religions,
+		 ideologies, and economic doctrines, every hunter and forager, every hero and coward,
+		 every creator and destroyer of civilization, every king and peasant, every young couple in love,
+		 every mother and father, hopeful child, inventor and explorer, every teacher of morals,
+		 every corrupt politician, every 'superstar,' every 'supreme leader,'
+		 every saint and sinner in the history of our species lived there -- on a mote of dust suspended in a sunbeam. &rdquo;
+		</blockquote><cite>-Carl Sagan, "Pale Blue Dot", 1994</cite>
+		<p>Algunas observaciones sobre imágenes:</p>
+		<ul>
+		  <li>Puede ser conveniente especificar explícitamente las dimensiones (altura y anchura) con que queremos que se visualizen. <ul>
+		    <li>Si la imagen tarda en cargarse, o no estuviera disponible, el navegador sabe el espacio que ocupa.</li>
+		    <li>Si la imagen tiene unas dimensiones distintas, servirá para redimensionarla.</li>
+		    <li>Existen los atributos width y height, y también se puede especificar con CSS (más opciones). </li>
+		  </ul></li>
+		  <li>Las imágenes de elevado tamaño (por ejemplo mayores de 100KB), deberían reducirse (dimensiones y calidad) e incluso cambiar de formato.
+		  No todo el mundo accede a Internet con banda ancha y el tamaño es dinero (ver <a href="https://danluu.com/web-bloat/">danluu - How web bloat affects people with slow connections</a> ).
+		  <li>Cuidado con los nombres. Poner todo en minúsculas nos evitará sorpresas al subir los ficheros a un servidor 'case-sensitive'. Unificar los separadores internos en el nombre(espacios, etc) a guiones ('-'). Evitar caracteres no ASCII.</li> 
+		  <li>El atributo alt es un texto a mostrar si no es posible visualizar la imagen (por error de carga, o navegando en modo texto).
+		   No confundir con el atributo title, que es el texto descriptivo sobre la imagen,
+		   como una capa de información adicional sobre la imagen que se visualiza al pasear el ratón sobre ésta. </li> 
+		</ul>
+	  </section>
+    </section> <!-- content -->
+
+	<footer>
+		Cutrepasteado de VMS por javier en 2017
+	</footer>
+  </div>
+</body>
+</html>

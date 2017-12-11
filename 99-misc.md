@@ -600,4 +600,47 @@ Quizás existan otros programas de edición mejores, pero de momento no estoy po
 Preparado un ejemplo acerca del modelo de cascada (herencia de atributos) de CSS.
 Tangencialmente
 - [noupe.com - 80 Stunning Background Patterns For Your Websites](https://www.noupe.com/design/80-stunning-background-patterns-for-your-websites.html)
+
+## 1205
+- [Lagom display test pages](http://www.lagom.nl/lcd-test/)
+- [StackOverflow - What is the meaning of cascading in CSS](https://stackoverflow.com/questions/1043001/what-is-the-meaning-of-cascading-in-css)
+> Håkon Wium Lie (CSS co-creator) defines "cascade" in his PHD-thesis on CSS as "The process of combining several style sheets and resolving conflicts between them" (http://people.opera.com/howcome/2006/phd/#h-357)
+
+## 1208
+Mirando sobre cómo ver una página como en impresora, o en monocromo
+- https://stackoverflow.com/questions/9540990/using-chromes-element-inspector-in-print-preview-mode/
+- https://superuser.com/questions/330830/how-to-turn-web-pages-in-browser-into-black-white-grayscale
+- https://code.tutsplus.com/tutorials/create-bookmarklets-the-right-way--net-18154
+
+Orden de precedencia en CSS
+- https://stackoverflow.com/questions/25105736/what-is-the-order-of-precedence-for-css
+- Referencia https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+- El concepto se llama **CSS Specificity**
+
+Algo de MathML. Ahora sé qué son algunos de los elementos, pero parece bastante complicado de dar en esta unidad didáctica.
+- [W3C MathML documentos](https://www.w3.org/Math/). Tiene una lista de enlaces a otros materiales.
+- [MathML cheat sheet](http://www.math.wsu.edu/kcooper/M300/mathmlcheat.php) quizás podría estar algo mejor organizado, y el `mi` la i es de identificador (un nombre de función, una variable), no es itálica.
+
+Lorem Ipsum para generar texto de relleno
+- [Lorem Ipsum variados (Batman,Marvel,Pokemon)](https://www.freeformatter.com/lorem-ipsum-generator.html)
+- [Cthuviam Ipsum](http://ephemer.kapsi.fi/FhtagnGenerator.php)
+
+Referencias de caracteres/entidades
+- [W3C html5 author charref](https://dev.w3.org/html5/html-author/charref)
+- https://www.freeformatter.com/html-entities.html A pesar del nombre no es completa, pero está organizada
+Me sorprende que alfabetos que serán utilizados por cerca de miles de millones de personas y no son excesivamente prolijos (por ejemplo en Hindi) no tengan entidades, aunque probablemente lo más práctico sería directamente utilizar UTF-8
+En la referencia del W3C aparecen muchísimos caracteres que no aparecen en otras referencias, pero parece excesivo. Por ejemplo aparecen letras matemáticas en en plano extendido (1) de unicode, la última de ellas: &#x1D56B; &zopf;
+
+Andaba con la idea de un código en javascript que escapara las entidades utilizando el nombre para todos aquellos casos definidos en un catálogo. Posiblemente lo razonable sería utilizar un catálogo reducido de aquellos elementos que es factible utilizar en nuestro entorno inmediato. Si alguien tuviera necesidades más específicas, debería poder adaptar el catálogo para incluir sus entidades favoritas.
+
+[(circa 1994) A Review of the HTML+ Document Format. W3C](https://www.w3.org/MarkUp/htmlplus_paper/htmlplus.html)
+
+[Cookies - European Comission](http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)
+
+Problema de las cookies de terceros. ¿Qué usos legítimos (de interés para el usuario) tienen?
+[Mozilla Help - Disable third party cookies](https://support.mozilla.org/en-US/kb/disable-third-party-cookies)
+
+##1112
+[css - Floating elements within a div, floats outside of div. Why? - Stack Overflow](https://stackoverflow.com/questions/2062258/floating-elements-within-a-div-floats-outside-of-div-why)
+
 ### Tareas

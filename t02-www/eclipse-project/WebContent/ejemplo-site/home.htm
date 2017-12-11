@@ -1,0 +1,61 @@
+<!-- Convertido a HTML5. xhtml no especifica bloques header nav section, etc. -->
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Página de ejemplo de Javier Aranda</title>
+<!-- Cambio en hojas de estilo. Nombres significativos. Clausula `media` dentro del CSS -->
+<link href="comun.css" rel="stylesheet" type="text/css" />
+<link href="home.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="page-home"><!-- Los estilos de la home son distintos -->
+<div class="container"><!-- Prefiero identificar con class antes que con id. Utilizo nombres anglicinizados por si les resulta significativo a los buscadores. -->
+
+	<header>
+	    <h1>Página web de ejemplo de Javier Aranda</h1>
+	</header>
+
+	<nav class="menu">
+	    <ul>
+		<li><a href="home.htm" title="Home de Javier">Presentaci&oacute;n</a></li>
+		<li><a href="recursos.htm" title="Recursos sobre HTML/CSS">Recursos</a></li>
+		<li><a href="galeria.htm" title="Fotos de Javier">Galer&iacute;a de fotos</a></li>
+		<li><a href="formulario.htm" title="opina sobre mi web">Formulario</a></li>
+	    </ul>
+	</nav>
+
+	<section id="content">
+		<div class="marco-foto">
+			<img src="imagenes/javi.jpg" alt="Foto viejuna" width="75" />
+			<br/>Mi careto de joven
+		</div>
+		<p>
+			Saludos. Mi nombre es Javier Aranda, y mis aciertos y errores me han traido hasta aquí.
+		<p>Soy alumno del <em>Máster de profesorado de Secundaria de la <abbr title="Universidad Internacional de La Rioja">UNIR</abbr></em>. Y quiero agradecer a <strong>Víctor Sánchez</strong> y al centro de <a href="http://www.lasallegranvia.es/" title="La Salle Franciscanas Gran Vía">La Salle Franciscanas</a>, el haberme acogido para las prácticas.
+			Y también quisiera agradecer a mis alumnos por soportarme pacientemente.
+		</p>
+		<p> Esta página corresponde al ejercicio de <strong>TIC-II</strong> de realizar un sitio web sencillo.
+			<ul>
+				<li>Basándonos en una plantilla preexistente. Se trata de un <em>layout</em> basado en el atributo <code>float</code>. La he adaptado un poco según mi idiosincrasia.</li>
+				<li>Incluir algunos de los estilos básicos de formato <code>em</code>/<code>i</code> , <code>strong</code>/<code>b</code>, etc</li>
+				<li>Incluir algún enlace (utilizar atributo title si aporta algún significado)</li>
+				<li>Incluir alguna lista y/o alguna tabla para mostrar información estructurada</li>
+				<li>La plantilla incluye una página para imágenes y otra página para un formularios
+					<ul>
+						<li>Las imágenes deberían incluir alguna imagen con fondo transparente (<code>.gif</code> y <code>.png</code> lo permiten)</li>
+						<li>El formulario aquí utilizará <code>method="GET" action="formulario.htm"</code> de modo que podremos ver las entradas en la URL.
+						</li>
+					</ul>
+				</li>
+				<li>Considerar que lo importante es mostrar que somos capaces de aplicar elementos de estilo/semántica con criterio.
+					<small>Esto se consigue mejor con un texto breve, contextualizado, que incluya un par de los elementos pedidos, que con un <em><abbr title="del Griego: &ldquo;criado por su abuela&rdquo;">mamotreto</abbr></em> con cada uno de los elementos del HTML 5.1 que podríamos haber copiado <a href="https://www.w3.org/TR/html51/textlevel-semantics.html#text-level-semantics-usage-summary" title="Resumen de elementos de formato de texto en W3C REC HTML 5.1">de cualquier lado</a>.</small>
+				</li>
+		  </ul>
+		</p>
+	</section>
+
+	<footer>
+		Cutrepasteado de VMS por javier en 2017
+	</footer>
+</div>
+</body>
+</html>

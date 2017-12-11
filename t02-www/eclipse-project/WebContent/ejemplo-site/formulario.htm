@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Formulario de ejemplo</title>
+<link href="comun.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="page-form">
+  <div class="container">
+<header id="cabecera">
+      <h1>Página web de ejemplo de Javier Aranda</h1>
+      <h2>Algunas imágenes</h2>
+</header>
+
+<nav class="menu">
+    <ul>
+        <li><a href="home.htm" title="para conocerme">Presentaci&oacute;n</a></li>
+		<li><a href="recursos.htm" title="Recursos sobre HTML/CSS">Recursos</a></li>
+        <li><a href="galeria.htm" title="Algunas imágenes">Galer&iacute;a de fotos</a></li>
+        <li><a href="formulario.htm" title="opina sobre mi web">Formulario</a></li>
+    </ul>
+</nav>
+
+<section class="content">
+Un formulario de pega con algunas cosas comunes<br />
+Referencias:
+<ul>
+	<li><a href="https://www.w3schools.com/html/html_forms.asp">W3CSchools - HTML Forms</a></li>
+	<li><a href="https://www.w3.org/TR/html5/sec-forms.html#sec-forms">W3C REC HTML 5.1 Forms</a>
+</ul>
+<small>Para el primer formulario para un alumno, creo que está bien con un par de campos de texto y
+alguna cosa especial como un check, un radio o un combo.</small>
+  <form id="form-ejemplo" action="formulario.htm" method="GET">
+  <table border="0"> <!-- Layout feo y horrible con tablas -->
+  	<tr>
+  	  <td><label for="IDtexto">Text</label></td>
+  	  <td><input type="text" name="texto" id="IDtexto" value="texto aquí"/></td>
+  	</tr>
+  	<tr>
+  	  <td><label for="IDadmin-passwd">Oculto</label></td>
+  	  <!-- admin-passwd pretende llamar la atención por incorrecto.
+  	  Los campos hidden serían más para códigos transparentes al usuario, como un código de petición. -->
+  	  <td><input type="hidden" id="IDadmin-passwd" name="admin-passwd" value="password"/>
+  	    <img src="imagenes/ninjaanim.gif" />
+  	  </td>
+  	</tr>
+  	<tr>
+  	  <td><label for="IDarea-texto">TextArea</label></td>
+  	  <td><textarea id="IDarea-texto" name="area-texto" rows="5" cols="40">Lorem ipsum dolor sit amet,
+consectetur adipisicing elit,
+sed do eiusmod tempor incididunt ut
+labore et dolore magna aliqua.
+Ut enim ad minim veniam.</textarea> </td>
+  	</tr>
+  	<tr>
+  	  <td><label>Radio</label></td>
+  	  <td>
+  	    <label><input type="radio" name="radio" id="radio01" value="pulgar" checked="1">Este tenía hambre</label><br />
+  	    <label><input type="radio" name="radio" id="radio02" value="indice" >Este dijo que no había pan</label><br />
+  	    <label><input type="radio" name="radio" id="radio03" value="corazón" >Este fue al mercado</label><br />
+  	    <label><input type="radio" name="radio" id="radio04" value="anular" >Este lo compró</label><br />
+  	    <label><input type="radio" name="radio" id="radio05" value="meñique" >Y este pequeñito ñam ñam que se lo comió</label><br />
+  	  </td>
+  	</tr>
+  	<tr>
+  	  <td><label for="radio01">Checkboxes</label></td>
+  	  <td>
+  		<label><input type="checkbox" name="checkEULA" value="1" checked>Acepto las condiciones de uso mega-kilométricas sin leerlas</label><br />
+  		<label><input type="checkbox" name="checkData" value="1" checked>Acepto que mis datos se almacenen en ficheros desprotegidos</label><br />
+  		<label><input type="checkbox" name="checkList" value="1" checked>Por favor no me llenéis el buzón de correo de basura</label><br />
+  		<label><input type="checkbox" name="checkPrimo" value="1" checked>Vendo mi primogenitura por un plato de lentejas</label><br />
+  	  </td>
+  	</tr>
+  	<tr>
+  	  <td><label for="IDselect">Combo</label></td>
+  	  <td><select name="combo" id="IDselect">
+  	  <!-- http://quotes.yourdictionary.com/articles/funny-fortune-cookie-sayings.html - disable javascript -->
+  	    <option value="01">The fortune you seek is in another cookie</option>
+  	    <option value="02">A foolish man listens to his heart. A wise man listens to cookies.</option>
+  	    <option value="03">Some men dream of fortunes, others dream of cookies.</option>
+  	    <option value="04">You will live long enough to open many fortune cookies.</option>
+  	    <option value="05">We don’t know the future, but here’s a cookie.</option>
+  	    <option value="06">All fortunes are wrong except this one.</option>
+  	    <option value="07">I am worth a fortune.</option>
+  	    <option value="08" selected>You will receive a fortune cookie.</option>
+  	    <option value="09">Help! I am being held prisoner in a fortune cookie factory.</option>
+  	    <option value="10">You will be hungry again in one hour.</option>
+  	    <option value="11">He who laughs at himself never runs out of things to laugh at.</option>
+  	    <option value="12">He who laughs last is laughing at you.</option>
+  	    <option value="13">A fanatic is one who can't change his mind, and won't change the subject.</option>
+  	    <option value="14">Don’t eat the paper.</option>
+  	  </select></td>
+  	</tr>
+  	<tr><td colspan="2"> ... Y ya está bien por ahora ...</td></tr>
+  	<tr><td> <input type="submit"></td><td><input type="reset" value="It's a trap!"></td></tr>
+  </table>
+  </form>
+</section>
+
+	<footer>
+		Cutrepasteado de VMS por javier en 2017
+	</footer>
+</div>
+</body>
+</html>

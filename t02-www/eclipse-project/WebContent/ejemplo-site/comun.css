@@ -1,0 +1,178 @@
+/*
+Hoja de estilos para ejercicio sitio web simple.
+#INDEX
+100-Definiciones estables. media all
+110-Definiciones estables. media screen
+120-Definiciones estables. media print
+200-Personalizaciones
+
+Algunos cambios.
+- Unificada los elementos comunes de la hoja de estilo general, de la `home`, y de imprimir.
+  - Los elementos de imprimir van dentro de un bloque media
+  - Las modificaciones específicas de la página principal van en su propia hoja.
+- He convertido algunos identificadores en clases (¿Qué sucede si existen múltiples instancias, por ejemplo en un gran panel? no obstante, quizás tal caso se solucionaría con frames)
+  - En un contexto sencillo sería más práctico utilizar `#content` . En un contexto más complejo donde el id deba ser *universalmente* único, generado por un tercero, etc deberíamos (por fuerza) utilizar `.content`
+- Algunos elementos estructurales definidos en HTML 5.1 como `header`, `nav`, `footer`, `section`. No obstante en XHTML serían inválidos y habría que revertir a div.class
+- un marco para la foto
+- Pequeños detalles (¿deliberados?) que no me cuadraban. Font family `sherif`, visibility:hidden.
+
+*/
+
+/*
+100-Definiciones estables. media all
+*/
+/* estilos elementos */
+body {
+    font-family: arial, helvetica, sans-serif;
+    background-color: #eee;
+}
+
+img {border: none;}
+
+a:link {
+    text-decoration: none;
+    color: #00a;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #a00;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0a0;
+}
+
+/*
+110-Definiciones estables. media screen
+*/
+@media screen {
+
+  .container {
+      width: 800px;
+      margin: 0px auto;
+      text-align: left;
+  }
+
+  header {
+      background-color: #ece;
+      text-align: left;
+      padding: 10px 5px 5px 30px;
+      margin: 2px;
+  }
+
+  .menu {
+      background-color: #bbb;
+      margin: 2px;
+      width: 180px;
+      padding: 5px;
+      float: left;
+  }
+
+  .menu ul {
+      list-style-type: none;
+  }
+
+  .content {
+      margin: 2px 2px 2px 2px;
+      text-align: left;
+      background-color: #eee;
+      padding: 10px 10px;
+  }
+
+  footer {
+      clear: both;
+      background-color: #000;
+      color: #fff;
+      font-size: 8pt;
+      font-weight: bold;
+      text-align: center;
+      margin: 2px;
+      padding: 2px;
+  }
+
+}
+
+/*
+120-Definiciones estables. media print
+*/
+@media print {
+  body {
+    background-color: inherit; /* Evitar un color de fondo, que lo tome del user-agent. */
+  }
+
+  .container {
+      width: auto; /* En vez de 800px */
+      border: #000 solid 2px;
+      font-family: times, serif;
+  }
+
+/* Elimina algunos elementos: Menú, navegación */
+  .menu, footer  {
+      display: none;
+  }
+
+}
+
+/*
+200-Personalizaciones
+*/
+
+.container {
+	overflow: hidden; /* Evitar que los contenidos se escapen al contenedor.
+	Ver https://drafts.csswg.org/css-overflow-3/#propdef-overflow ,
+	Ver https://stackoverflow.com/questions/2062258/floating-elements-within-a-div-floats-outside-of-div-why */
+}
+
+.content {
+	float:right;
+	width: 580px; /* 800 - 180(nav) - margen */
+}
+div.marco-foto {
+  float:left;
+  border: solid 1px black;
+  margin: .5em; padding: .5em;
+  text-align: center;
+}
+
+div.links {
+	border: 1px solid black;
+	float: left;
+	margin: .2em; padding: .1em;
+	background-color: LightYellow;
+}
+div.links .caption {
+	display:block;
+	background-color: Maroon; color: White;
+	font-size: 110%; text-align: center;
+}
+
+div.links ul {
+	margin-top:0; /* Anula margen respecto al caption del grupo */
+	list-style-type: none; /* ¿Redefinir? */
+	padding-left:1em;
+}
+
+@media print{
+	div.links {
+		background-color: white;
+		color: black;
+	}
+
+	div.links a {
+		color: black;
+	}
+	
+    /* Muestro el destino de los enlaces. */	
+	div.links a:after{
+	   content:" (" attr(href) ") ";
+	   font-size:80%;font-weight:normal;font-style: italic;
+	}
+}
