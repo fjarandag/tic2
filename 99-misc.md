@@ -643,4 +643,27 @@ Problema de las cookies de terceros. ¿Qué usos legítimos (de interés para el
 ##1112
 [css - Floating elements within a div, floats outside of div. Why? - Stack Overflow](https://stackoverflow.com/questions/2062258/floating-elements-within-a-div-floats-outside-of-div-why)
 
+[Shay Hove - Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/) parece bien trabajado
+
+No soy partidario de incluir cada pedazo de información en una presentación. Seria lo que llaman death-by-powerpoint.
+Sin embargo si se va a examinar a los alumnos. Quizás prefieran unas transparencias que puedan servir de referencia.
+Si las transparencias no sirven de referencia para estudiar, debería haber designado al menos algún material que sirva para estudiar.
+No obstante en mi experiencia como alumno en el [máster del DIIS](http://webdiis.unizar.es/POPinformatica/), no se preparaban transparencias para leer, ni en las clases ni en las defensas. Y puede ser preferible acudir con las transparencias impresas (si no las facilitaba el profesor), y tomar las notas pertinentes sobre éstas.
+
+[WHATWG - Glossary | MDN](https://developer.mozilla.org/en-US/docs/Glossary/WHATWG)
+>According to their [website](https://wiki.whatwg.org/wiki/FAQ#What_is_the_WHATWG.3F), WHATWG is a response to W3C's sluggish progress on Web standards, especially HTML, which W3C stopped developing to concentrate on XHTML.
+
+>WHATWG maintains specifications for HTML, DOM, and JavaScript.
+
+Realmente Javascript ha sido movido a otra ubicación:
+- En [ECMAScript® 2018 Language Specification](https://tc39.github.io/ecma262/)
+- Via [whatwg/javascript: Obsolete](https://github.com/whatwg/javascript)
+
+[HTML (living) Standard (WHATWG)](https://html.spec.whatwg.org/)
+
+##1213
+Problemas con el ejercicio planteado. Si no hay ninguno que lo resuelva bien, algo tengo que estar haciendo mal.
+El elemento `tt` es *non-conforming* y no debería utilizarse (https://html.spec.whatwg.org/#non-conforming-features)
+(https://www.w3.org/TR/html5/obsolete.html#non-conforming-features)
+
 ### Tareas
